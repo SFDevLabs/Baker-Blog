@@ -1,0 +1,993 @@
+/* medium screen css */
+
+
+.about-baker #content.secondary-template #block-03 h2,
+.about-baker #content.secondary-template #block-05 h2,
+.about-baker #content.secondary-template #block-03 p,
+.about-baker #content.secondary-template #block-05 p,
+.about-baker #content.secondary-template #block-03 h3,
+.about-baker #content.secondary-template #block-05 h3,
+.about-baker #content.secondary-template #block-03 ul li,
+.about-baker #content.secondary-template #block-05 ul li,
+.about-baker #content.secondary-template #block-03 ol li,
+.about-baker #content.secondary-template #block-05 ol li,
+.about-baker #content.secondary-template #block-03 dl,
+.about-baker #content.secondary-template #block-05 dl,
+#site-header #primary-nav #contact-us > span {
+    color: #fff;
+}
+
+
+
+/* typography */
+
+#content.landing-form .left-content p.jumbo  {
+    font-size: 50px;
+    line-height: 70px;
+}
+
+#content.landing-form .left-content p.jumbo .dollar {
+    font-size: 25px;
+    vertical-align: top;
+    line-height: 55px;
+}
+
+.intro-box ul li,
+.intro-box .halves p.halves {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+h2,
+.home h2,
+footer .cards h2 {
+    font-size: 36px;
+    line-height: 36px;
+}
+
+#content.landing-form .form h2,
+h2 {
+    font-size: 30px;
+    line-height: 30px;
+}
+
+header #primary-nav ul li {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+header #subnav ul li {
+    font-size: 15px;
+    line-height: 18px;
+}
+
+form p,
+.privacy,
+label,
+form ul li select,
+form ul li input,
+.form textarea,
+form input[type=submit],
+.page-template-tertiary-php #content h3,
+h4,
+dl dt,
+dl dd,
+p,
+ul li,
+ol li {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+
+.tertiary-columns .col h3,
+.accordion .col h3 {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.tertiary-columns .col p,
+.accordion .col p {
+    padding-bottom: 15px;
+}
+
+.quote-info p,
+.cta {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.cta span {
+    font-size: 20px;
+}
+
+#content.landing-form .form h3,
+.quote-info h3,
+blockquote,
+.home #content .text-block p,
+.cards p,
+#site-footer-top .card p {
+    font-size: 20px;
+    line-height: 24px;
+    padding-bottom: 20px;
+}
+
+.home #content .text-block.blog p,
+footer p,
+.footer-links h2,
+.footer-links h3,
+.footer-links ul li {
+    font-size: 19px;
+    line-height: 24px;
+}
+
+.text-block.white-bg p,
+footer .text-block p,
+.accordion p,
+.home #content .text-block p {
+    padding-bottom: 20px;
+}
+
+.landing-form h2 span + span {
+    padding-top: 10px;
+}
+#content.landing-form section .form ul li,
+.left-content p,
+.left-content ul,
+.page-template-tertiary-php #content h3,
+.text-block p {
+    padding-bottom: 10px;
+}
+
+.landing-form .text-block h2 {
+    padding-bottom: 0;
+}
+
+
+/* graphics */
+
+.cards .col {
+    padding-top: 165px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#content.landing-form .form h2,
+#content .white-bg.text-block:first-child {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+
+.form,
+#content .text-block.no-cta {
+    border-radius: 15px;
+}
+
+#content.landing-form .form.col h2 {
+    padding: 10px 20px;
+}
+
+.site-title,
+.site-title a {
+    width: 160px;
+    height: 60px;
+}
+
+.site-title a {
+    background: transparent url(../images/baker-electric-solar-logo-480.png) center center no-repeat;
+    background-size: 100% auto;
+}
+
+form input[type=submit],
+.cta.button {
+    border-radius: 30px;
+}
+
+.cta.bottom,
+.cta.button.medium-bottom {
+    display: block;
+    border-radius: 15px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+
+.slides li .play-button {
+    position: absolute;
+    cursor: pointer;
+    height: 160px;
+    width: 160px;
+    left: 50%;
+    top: 50%;
+    margin: 0 0 0 -80px;
+}
+
+.large-full .col .radius,
+.large-full .col > img:first-child {
+    width: 100%;
+    border-radius: 290px;
+    margin-bottom: 15px;
+}
+
+#content > section.expanded {
+    padding-bottom: 70px;
+}
+
+#content .scroll-to-top,
+#content .close-button {
+    left: 10px;
+}
+
+#content .scroll-to-top {
+    bottom: -36px;
+    width: 160px;
+    left: 60px;
+}
+
+#content .close-button {
+    width: 40px;
+    top: 0;
+}
+
+.accordion .medium-full {
+    padding-bottom: 20px;
+}
+
+
+/* header */
+
+#site-header .nav-email {
+    display: none !important;
+}
+
+#site-header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    z-index: 900;
+}
+
+#site-header #subnav,
+#site-header .mobile-trigger {
+    display: none !important;
+}
+
+#site-header h1,
+#site-header ul li,
+#site-header ul li a {
+    display: block;
+    float: left;
+}
+
+#site-header ul li a {
+    float: none;
+    margin: 0;
+    width: 100%;
+}
+
+#site-header #primary-nav ul {
+    display: block;
+    float: right;
+}
+
+#site-header #primary-nav ul li {
+    padding: 0px 0 20px 0;
+    margin: 0 20px;
+    text-align: center;
+}
+
+.solar-benefits #site-header  #primary-nav .nav-solar-benefits {
+    background: transparent url(/wp-content/themes/baker/images/subnav-solar-benefits-retina.png) center bottom no-repeat;
+    background-size: auto 12px;
+}
+
+.about-baker #site-header  #primary-nav .nav-about-baker {
+    background: transparent url(/wp-content/themes/baker/images/subnav-about-baker-retina.png) center bottom no-repeat;
+    background-size: auto 12px;
+}
+
+.residential #site-header  #primary-nav .nav-residential-solutions {
+    background: transparent url(/wp-content/themes/baker/images/subnav-residential-retina.png) center bottom no-repeat;
+    background-size: auto 12px;
+}
+
+.commercial #site-header  #primary-nav .nav-commercial-solutions {
+    background: transparent url(/wp-content/themes/baker/images/subnav-commercial-retina.png) center bottom no-repeat;
+    background-size: auto 12px;
+}
+
+#site-header #primary-nav ul li.nav-commercial-solutions {
+    margin-right: 0;
+}
+
+#site-header #primary-nav ul li span {
+    display: block;
+}
+
+#site-header #primary-nav #contact-us {
+    position: absolute;
+    top: 0px;
+    right: 40px;
+    padding: 0;
+    text-align: center;
+    height: auto;
+    width: 110px;
+}
+
+#site-header #primary-nav #contact-us span {
+    height: 40px;
+    line-height: 40px;
+}
+
+#site-header #primary-nav #contact-us > span {
+    cursor: pointer;
+}
+
+#site-header h1 {
+    margin: 30px 0;
+}
+
+#site-header #primary-nav ul {
+    padding-top: 60px;
+}
+
+#site-header #primary-nav #contact-us-details {
+    text-align: center;
+    display: none;
+    position: absolute;
+    right: 150px;
+    top: 0;
+    height: 40px;
+    width: 430px;
+    padding: 0;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmMmYyZjIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  #ffffff 0%, #f2f2f2 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f2f2f2)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#f2f2f2 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ffffff 0%,#f2f2f2 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ffffff 0%,#f2f2f2 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ffffff 0%,#f2f2f2 100%); /* W3C */
+}
+
+#site-header #primary-nav #contact-us-details li,
+#site-header #primary-nav #contact-us-details li a,
+#site-header #primary-nav #contact-us-details li span {
+    display: inline-block;
+    float: none;
+    clear: none;
+    width: auto;
+    line-height: 40px;
+    margin: 0 10px;
+    padding: 0;
+}
+
+
+/* footer */
+
+.site-title, 
+.site-title a {
+    display: block;
+    text-indent: -9999px;
+    float: none;
+    margin: 0 auto;
+}
+
+footer .site-title,
+footer .site-title a {
+    width: 240px;
+    height: 90px;
+}
+
+.footer-links {
+    clear: both;
+}
+
+footer .legal {
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer .legal p {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer .social, 
+footer .logo {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+footer .logo {
+    margin-right: 40px;
+}
+
+footer .logo.sunpower {
+    margin-top: 20px;
+    background: transparent url(/wp-content/themes/baker/images/sunpower-elite-dealer-retina.png) center center no-repeat;
+}
+
+footer .logo.angies {
+    background: transparent url(/wp-content/themes/baker/images/angies-list-award-retina.jpg) center center no-repeat;
+}
+
+footer .logo.bbb {
+    background: transparent url(/wp-content/themes/baker/images/bbb-logo-retina.jpg) center center no-repeat;
+}
+
+#site-footer-bottom .logo.baker {
+    margin: 20px 0 0 0;
+    display: inline-block;
+    background: transparent url(/wp-content/themes/baker/images/baker-electric-inc-logo-retina.png) center center no-repeat;
+}
+
+footer .logo.sunpower,
+footer .logo.angies,
+footer .logo.bbb,
+#site-footer-bottom .logo.baker {
+    background-size: 100% auto;
+}
+
+#site-footer-bottom .left,
+#site-footer-bottom .right {
+    float: none;
+    text-align: center;
+}
+
+#site-footer-bottom .right {
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+#site-footer-bottom .social a {
+    background-image: url(/wp-content/themes/baker/images/social-icons-retina.png);
+    background-size: 184px auto;
+}
+
+#site-footer-bottom .social a.google-plus {
+    background-position: -96px 0;
+}
+
+#site-footer-bottom .social a.pinterest {
+    background-position: -144px 0;
+    margin-right: 0;
+}
+
+#site-footer-bottom .social a.youtube {
+    background-position: -48px -50px;
+}
+
+
+
+/* forms */
+
+.intro-box {
+    border-radius: 15px;
+    padding: 10px 20px 5px 20px;
+}
+
+.intro-box .halves {
+    width: 50%;
+    margin: 0;
+}
+
+.intro-box .halves .halves {
+    width: 40%;
+}
+
+.intro-box .halves ul.halves,
+.intro-box .halves p.halves:last-child {
+    width: 60%;
+}
+
+.intro-box .halves p.halves:last-child {
+    padding-top: 25px;
+}
+
+.form p input[type=submit] {
+    padding: 15px 35px 15px 15px !important;
+    line-height: 21px;
+}
+
+.form h2 + .inline-form:first-child,
+.form .inline-form:first-child {
+    padding-top: 20px;
+}
+
+.cta.link a,
+.cta,
+#content form input[type=submit] {
+    background-image: url(/wp-content/themes/baker/images/button-double-arrow-tablet.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: auto 10px;
+}
+
+#content .expanded .cta {
+    background-image: url(/wp-content/themes/baker/images/button-double-arrow-down.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: auto 10px; 
+}
+
+#content .cta.link {
+    padding: 0;
+}
+
+.cards .cta.bottom,
+#content .cta.bottom,
+#content .cta.bottom.link a {
+    background-image: none;
+    padding-right: 15px;
+}
+
+#content .cta.bottom.link {
+    padding-right: 0;
+}
+
+.form h3 {
+    padding: 20px 20px 0px;
+}
+
+.landing-form .form h3 span {
+    display: inline;
+}
+
+.form {
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.form h3 {
+    text-align: center;
+}
+
+#form-contents.thank-you-message,
+.form form,
+.form > p {
+    padding: 0 20px;
+}
+
+.form p.privacy {
+    padding: 10px 20px 0 20px;
+}
+
+.landing-form.orange-blue .form h2 {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.form p:first-child {
+    padding-top: 20px;
+}
+
+form .col.halves,
+.halves input,
+.halves label,
+.halves textarea {
+    width: 100%;
+    clear: both;
+    margin-left: 0;
+}
+
+.landing-form .halves.second {
+    padding-top: 0;
+}
+
+.form .centered {
+    text-align: left;
+}
+
+#block-05 .accordion .col.halves {
+    padding: 0;
+}
+
+#block-05 .accordion .col.halves img {
+    display: block;
+    margin: 10px auto;
+}
+
+#block-05 .accordion .form p {
+    padding: 0 20px;
+}
+
+#block-05 .accordion .form ul {
+    padding-top: 10px;
+}
+
+#block-05 .accordion .form p:first-child {
+    padding-top: 20px;
+}
+
+#block-05 .accordion p.submit-button {
+    padding-top: 10px;
+}
+
+#block-05 .form {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+
+
+.col {
+    border: 0px solid rgba(0,0,0,0);
+    float: left;
+    -moz-background-clip: padding-box !important;
+    -webkit-background-clip: padding-box !important;
+    background-clip: padding-box !important;
+}
+
+.flex-direction-nav {
+    margin: 0 auto;
+}
+
+.flex-direction-nav,
+.container {
+    padding: 0 50px;
+}
+
+#site-footer-bottom {
+    padding: 40px 0 60px;
+}
+
+.page-template-tertiary-php #block-01,
+#content > section {
+    padding: 30px 0;
+}
+
+.page-template-tertiary-php #block-01 {
+    height: auto;
+}
+
+
+
+.circle {
+    position: absolute;
+    top: -30px;
+    max-width: 135%;
+    height: 135%;
+    right: -290px;
+    min-height: 250px;
+    z-index: -1;
+}
+
+.tertiary-template .circle {
+    height: auto;
+    width: 70%;
+    right: -20%;
+}
+
+.home .circle.orange-circles {
+    height: auto;
+    width: 100%;
+    right: -5%;
+}
+
+.home .circle.orange-circles img {
+    width: 55%;
+    top: 0;
+    right: 0;
+    left: auto;
+    position: relative;
+    float: right;
+    border-bottom: 50px solid #fff;
+}
+
+.tertiary-template .circle img {
+    max-width: 100%;
+}
+
+.circle.transparent img {
+    width: 100%;
+}
+
+.circle.transparent {
+    right: -50%;
+    width: 150%;
+}
+
+
+
+form input[type=submit],
+.tertiary-columns .col,
+.accordion .col,
+.cta,
+.text-block {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.tertiary-columns .col,
+.accordion .col,
+.text-block.blog {
+    padding-right: 0;
+}
+
+.tertiary-columns {
+    padding-top: 50px;
+    clear: both;
+}
+
+.cta.left {
+    float: left;
+    margin: 0 20px 0 -15px;
+}
+
+.accordion .col.medium-col-4 {
+    padding-top: 20px;
+    padding-right: 80px;
+}
+
+
+
+.text-block.blog {
+    padding-top: 15px;
+}
+
+form input[type=submit],
+.cta {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.cards .cta,
+#content .cta.link a,
+#content .cta {
+    background-image: url(/wp-content/themes/baker/images/button-double-arrow.png);
+    background-repeat: no-repeat;
+    background-size: auto 10px;
+    padding: 15px 40px 15px 15px;
+    line-height: 12px;    
+}
+
+#content .expanded .cta span {
+    height: 15px;
+    width: 10px;
+    background: transparent url(/wp-content/themes/baker/images/dropdown-double-arrow.png) center bottom no-repeat;
+    background-size: 100% auto;
+}
+
+.cards .col {
+    padding-bottom: 40px;
+}
+
+.cards .text-block {
+    height: 205px;
+}
+
+#site-footer-top,
+#site-footer-bottom {
+    padding: 48px 0;
+}
+
+.secondary-template section#block-01 {
+    padding-top: 150px;
+}
+
+section#block-01 .flexslider .container, 
+section#block-06 .flexslider .container {
+    padding: 0 60px;
+}
+
+.home section#block-01,
+section#block-01 .slides li {
+    height: 690px;
+}
+
+.secondary-template #block-01 {
+    height: 600px;
+}
+
+#content.secondary-template > section > .container {
+    min-height: 250px;
+}
+
+.home section#block-06,
+.home section#block-06 .slides li,
+.home section#block-06 .hidden-video,
+.home section#block-06 .hidden-video iframe {
+    height: 670px;
+}
+
+.home section#block-01,
+.home section#block-06 {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.home section#block-01 .slides li {
+    padding-top: 120px;
+}
+
+#banner {
+    clear: both;
+    float: none;
+    width: 100%;
+    margin-top: 120px;
+    min-height: 316px;
+}
+
+.landing-form #banner {
+    margin-top: 120px;
+    padding: 20px 0;
+}
+
+.video-gallery #content .container .col:nth-child(odd) {
+    margin-left: 0;
+    clear: both;
+}  
+
+.video-gallery .container .col {
+    margin-bottom: 30px;
+    position: relative;
+} 
+
+
+
+
+.col.medium-clear {
+    clear: both;
+    margin-left: 0;
+}
+
+.home #block-01 .col {
+    margin-top: 130px;
+}
+
+.home #content #block-02 .medium-full .text-block p {
+    padding-bottom: 10px;
+}
+
+.home #block-06 .col {
+    margin-top: 40px;
+}
+
+.secondary-template #block-01 .col {
+    margin-top: 100px;
+}
+
+.container .col:first-child {
+    margin-left: 0;
+}
+
+
+.col {
+    margin-left: 3.74251497006%;
+}
+
+.medium-col-1 {
+    width: 16.6666666667%;
+}
+
+.medium-col-2 {
+    width: 30.769230769231%;
+}
+
+.video-gallery .medium-col-3 {
+    width: 48.12874251497%;
+}
+
+.medium-col-3 {
+    width: 46.634615384615%;
+}
+
+.medium-col-4 {
+    width: 62.5%;
+}
+
+.medium-col-5 {
+    width: 83.3333333333%;
+}
+
+.medium-fourths .col {
+    width: 25%;
+    padding-left: 2.884615384615%;
+    margin-left: 0;
+}
+
+
+.medium-full {
+    margin-left: 0;
+    width: 100%;
+    clear: both;
+    float: none;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 735px) { 
+    .home #content #block-01,
+    .home #content #block-06 {
+        height: auto;
+        border-bottom: 1px solid #ccc;
+    } 
+    .home #content #block-06 {
+        height: 690px;
+    }
+    .home #block-01 .text-block,
+    .home #block-06 .text-block {
+        padding-top: 0;
+    }
+    .home #content #block-01 .container,
+    .home #content #block-06 .container {
+        width: 100%;
+        padding: 0;
+    }
+    .home #content #block-01 .small-full,
+    .home #content #block-06 .small-full {
+        padding: 70px 40px 70px 40px;
+        width: 100%;
+        margin-top: 300px;
+        background: #fff;
+    }
+    .home #content #block-01 .cta,
+    .home #content #block-06 .cta {
+        border-radius: 30px;
+        display: inline-block;
+    }
+    .slides li .play-button {
+        top: 70px;    
+    }
+
+}
+
+@media screen and (max-width: 720px) {
+
+    #site-footer-top .cards .col {
+        clear: both;
+        padding: 0 0 0 100px;
+        width: 100%;
+        border-radius: 15px;
+        margin: 0 0 20px 0;
+        padding-left: 100px;
+    }
+
+    #site-footer-top .text-block {
+        padding: 20px;
+    }
+
+    #site-footer-top .text-block p {
+        padding: 0;
+    }
+
+    .cards .text-block {
+        height: 125px;
+    }
+
+    #site-footer-top .text-block {
+        border-top-left-radius: 0;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 0;
+    }
+
+    #site-footer-top .cta {
+        border-bottom-left-radius: 0;
+    }
+    .cards img {
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+    .footer-links {
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #site-header #primary-nav ul li {
+        margin: 0 15px;
+    }
+    .site-title,
+    .site-title a {
+        width: 120px;
+        height: 45px;
+    }
+    #site-header h1 {
+        margin: 40px 0 20px 0;
+    }
+}
+
+
+

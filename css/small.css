@@ -1,0 +1,923 @@
+/* small screen css */
+
+
+/* colors */
+
+.solar-benefits #site-header #primary-nav ul li.nav-solar-benefits a,
+.about-baker #site-header #primary-nav ul li.nav-about-baker a,
+.residential #site-header #primary-nav ul li.nav-residential-solutions a,
+.commercial #site-header #primary-nav ul li.nav-commercial-solutions a {
+    color: #5f6062;
+}
+
+#subnav a:hover {
+    color: #aaaaaa;
+}
+
+
+.home #content #block-03.blue h2,
+.home #content #block-03.blue h3 {
+    color: #1579a7;
+}
+
+.home #content #block-03.blue p {
+    color: #5f6062;
+}
+
+#site-header #primary-nav #contact-us-details li.nav-phone {
+    background-color: #fda729;
+}
+
+#content.landing-form .col .form h2,
+.solar-benefits #content #block-05 .accordion .col h3, 
+.solar-benefits #content #block-03 .accordion .col h3 {
+    color: #f27430;
+}
+
+
+/* typography */
+
+#content.landing-form .left-content p.jumbo  {
+    font-size: 70px;
+    line-height: 70px;
+}
+
+#content.landing-form .left-content p.jumbo .dollar {
+    font-size: 25px;
+    vertical-align: top;
+    line-height: 35px;
+}
+
+
+h2 {
+    font-size: 36px;
+    line-height: 36px;
+}
+
+#block-01 h2 {
+    padding-bottom: 0;
+}
+
+.home #block-02 .col:first-child .text-block {
+    border-bottom: 1px dotted #ccc;
+}
+
+.home #block-01 .text-block,
+.home #block-06 .text-block {
+    padding-top: 60px;
+}
+.home #block-02 {
+    padding-bottom: 70px;
+}
+
+.home #block-02 .cta {
+    position: absolute;
+    bottom: -70px;
+    left: 20px;
+}
+
+.home #block-02 .col:last-child {
+    display: none;
+}
+
+.cards h2 {
+    font-size: 28px;
+    line-height: 30px;
+}
+
+form p,
+.privacy,
+label,
+form ul li select,
+form ul li input,
+.form textarea,
+form input[type=submit],
+.home #content .text-block.blog p,
+.cta,
+.quote-info h3,
+blockquote,
+.page-template-tertiary-php #content h3,
+h4,
+dl dt,
+dl dd,
+p,
+ul li,
+ol li {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+#site-header ul li a,
+#site-header nav ul li > span {
+    font-size: 18px;
+}
+
+#site-header #contact-us {
+    font-size: 14px;
+}
+
+footer p, 
+.footer-links h2, 
+.footer-links h3, 
+.footer-links ul li {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.intro-box ul li,
+.intro-box .halves p.halves,
+.cta {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.form h3,
+.landing-form .left-content p,
+.landing-form .left-content ul,
+.landing-form .left-content ol,
+.quote-info h3,
+blockquote,
+.cards p,
+#site-footer-top .card p {
+    padding-bottom: 10px;
+}
+
+.landing-form .form h3,
+.large-full .col h3 {
+    font-size: 24px;
+    line-height: 24px;
+}
+
+#content.tertiary-template .text-block p {
+    padding-bottom: 20px;
+}
+
+
+/* graphics */
+
+.video-gallery #banner,
+.tertiary-template #banner {
+    display: none;
+}
+
+.video-gallery #content {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+.small-full.form {
+    padding-bottom: 20px;
+}
+
+.tertiary-template .circle {
+    margin-top: 0;
+    border-radius: 0;
+    width: 100%;
+}
+
+#content.tertiary-template > section {
+    padding-bottom: 20px;
+}
+
+#content.tertiary-template .col {
+    margin-top: 320px;
+}
+
+.circle {
+    height: 300px;
+    width: 300px;
+    margin: -100px auto 0 auto;
+    position: relative;
+    z-index: -1;
+    border-radius: 9999px;
+}
+
+.circle.orange-circles {
+position: absolute;
+    top: 0;
+    left: 50%;
+    margin-top: 0;
+    border-radius: 0;
+    height: 200px;
+    width: 300px;
+    margin-left: -150px;
+}
+
+.circle img {
+    visibility: hidden;
+    max-width: 100%;
+}
+
+.circle.orange-circles img {
+    visibility: visible;
+    position: absolute;
+    border-bottom: 40px solid #fff;
+}
+
+.cards img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.white-bg.text-block:first-child {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+
+#content .expanded .cta span {
+background: transparent url(../baker/images/dropdown-double-arrow.png) center 4px no-repeat;
+background-size: contain !important;
+}
+
+#content .cta span,
+footer .cta span {
+    display: inline-block;
+    text-indent: -9999px;
+    width: 15px;
+    height: 10px;
+    background: transparent url(../images/dropdown-right-double-arrow.png) left center no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+    margin-top: -3px;
+}
+
+/* header */
+
+#site-header #primary-nav #contact-us-details li.nav-chat,
+#site-header #primary-nav #contact-us-details li.nav-quote,
+#site-header #subnav {
+    display: none;
+}
+
+#site-header {
+    padding: 20px 0;
+}
+
+#site-header .nav-wrapper {
+    padding: 20px 20px 0;
+    position: relative;
+    clear: both;
+}
+
+#site-header #primary-nav .nav-wrapper ul {
+    width: 100%;
+    display: block;
+    border: 1px solid #e7e7e7;
+    overflow: hidden;
+    border-radius: 30px;  
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmMmYyZjIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  #ffffff 0%, #f2f2f2 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f2f2f2)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#f2f2f2 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ffffff 0%,#f2f2f2 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ffffff 0%,#f2f2f2 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ffffff 0%,#f2f2f2 100%); /* W3C */
+}
+
+#site-header #contact-us-details,
+#site-header #primary-nav ul {
+    z-index: 1000;
+}
+
+#site-header #contact-us,
+#site-header #primary-nav .mobile-trigger {
+    z-index: 1001;    
+}
+
+#site-header nav .mobile-trigger {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #f57421 url(../baker/images/dropdown-arrow.png) center center no-repeat;
+    background-size: 22px 15px;
+    width: 50px;
+    height: 52px;
+    text-indent: -9999px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    cursor: pointer;
+}
+
+#site-header .opened .mobile-trigger {
+    border-bottom-right-radius: 0;
+}
+
+#site-header .nav-wrapper ul li {
+    width: 100%;
+    height: 50px;
+    display: none;
+    background: none;
+    border-right: 50px solid #e7e7e7;
+    border-top: 1px solid #e7e7e7;
+}
+
+#site-header nav ul li:first-child {
+    border-top: 0;
+}
+
+#site-header #primary-nav ul,
+#site-header #primary-nav ul li {
+    width: 100%;
+}
+
+#primary-nav .sectionless .nav-home,
+#subnav ul li:first-child,
+#subnav.block-01 .block-01,
+#subnav.block-02 .block-02,
+#subnav.block-03 .block-03,
+#subnav.block-04 .block-04,
+#subnav.block-05 .block-05,
+.home #site-header  #primary-nav .nav-home,
+.solar-benefits #site-header #primary-nav .nav-solar-benefits,
+.about-baker #site-header #primary-nav .nav-about-baker,
+.residential #site-header #primary-nav .nav-residential-solutions,
+.commercial #site-header #primary-nav .nav-commercial-solutions,
+.contact-us #site-header #primary-nav .nav-contact-us {
+    display: block;
+    border-bottom-left-radius: 30px;
+    overflow: hidden;
+}
+
+#subnav.block-01 .closed .block-01,
+#subnav.block-02 .closed .block-02,
+#subnav.block-03 .closed .block-03,
+#subnav.block-04 .closed .block-04,
+#subnav.block-05 .closed .block-05,
+.home #site-header #primary-nav .closed .nav-home,
+.solar-benefits #site-header #primary-nav .closed .nav-solar-benefits,
+.about-baker #site-header #primary-nav .closed .nav-about-baker,
+.residential #site-header #primary-nav .closed .nav-residential-solutions,
+.commercial #site-header #primary-nav .closed .nav-commercial-solutions,
+.contact-us #site-header #primary-nav .closed .nav-contact-us {
+    border-top: 0;
+} 
+
+
+#site-header nav ul li a,
+#site-header nav ul li > span {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    vertical-align: middle;
+    line-height: 18px;
+    text-align: center;
+}
+
+#site-header #primary-nav ul li a,
+#site-header nav ul li.nav-home a {
+    line-height: 30px
+}
+
+#site-header .site-title {
+    margin: 0 0 5px 20px;
+}
+
+#site-header .site-title,
+#site-header .site-title a {
+    float: left;
+    width: 120px;
+    height: 45px;
+}
+
+.site-title a {
+    background: transparent url(/wp-content/themes/baker/images/baker-electric-solar-logo.png) center center no-repeat;
+    background-size: 100% auto;
+}
+
+#site-header #contact-us {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    color: #fff;
+    cursor: pointer; 
+    padding: 0 20px;
+    line-height: 40px;
+    height: 40px;
+    text-transform: uppercase;
+    font-family: 'GillSansMTStd-Bold', 'Lucida Grande', 'Tahoma', sans-serif;
+}
+
+
+#site-header #primary-nav #contact-us-details {
+    display: none;
+    padding: 0;
+    clear: both;
+}
+
+#site-header #primary-nav #contact-us-details li,
+#site-header #primary-nav #contact-us-details li a,
+#site-header #primary-nav #contact-us-details li > span {
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    float: none;
+    clear: none;
+    width: 100%;
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+    height: auto;
+} 
+
+
+
+/* footer */
+
+.hidden-video .container,
+#site-footer-bottom .container,
+#site-footer-top .container {
+    padding: 0 20px;
+}
+
+#site-footer-top .small-full {
+    padding: 0;
+}
+
+#site-footer-top .footer-links.small-full .col {
+    width: 100%;
+    clear: both;
+    padding-bottom: 20px;
+}
+
+#site-footer-top .cards .col {
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding-left: 100px;
+}
+
+#site-footer-top .text-block {
+    padding: 20px;
+}
+
+#site-footer-top .text-block p {
+    padding: 0;
+}
+
+#site-footer-top .text-block {
+    border-top-left-radius: 0;
+}
+
+#site-footer-top .cta {
+    border-bottom-left-radius: 0;
+}
+
+footer .site-title, 
+footer .site-title a {
+    width: 160px;
+    height: 60px;
+    display: block;
+    text-indent: -9999px;
+    float: none;
+    margin: 0 auto;
+}
+
+footer .legal {
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer .legal p {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer .legal p:first-child {
+    display: block;
+}
+
+footer .social {
+    margin-top: 30px;
+}
+
+footer .social, 
+footer .logo {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+footer .logo {
+    margin-right: 20px;
+}
+
+footer .logo.sunpower {
+    margin: 20px;
+    background: transparent url(/wp-content/themes/baker/images/sunpower-elite-dealer-retina.png) center center no-repeat;
+}
+
+footer .logo.angies {
+    background: transparent url(/wp-content/themes/baker/images/angies-list-award-retina.jpg) center center no-repeat;
+}
+
+footer .logo.bbb {
+    background: transparent url(/wp-content/themes/baker/images/bbb-logo-retina.jpg) center center no-repeat;
+}
+
+#site-footer-bottom .logo.baker {
+    display: inline-block;
+    margin: 0;
+    background: transparent url(/wp-content/themes/baker/images/baker-electric-inc-logo-retina.png) center center no-repeat;
+}
+
+footer .logo.sunpower,
+footer .logo.angies,
+footer .logo.bbb,
+#site-footer-bottom .logo.baker {
+    background-size: 100% auto;
+}
+
+footer .logo.baker,
+footer .logo.baker img {
+    max-width: 100%;
+}
+
+#site-footer-bottom .left,
+#site-footer-bottom .right {
+    float: none;
+    text-align: center;
+}
+
+#site-footer-bottom .social a {
+    background-image: url(/wp-content/themes/baker/images/social-icons-retina.png);
+    background-size: 184px auto;
+}
+
+#site-footer-bottom .social a.google-plus {
+    background-position: -96px 0;
+}
+
+#site-footer-bottom .social a.pinterest {
+    background-position: -144px 0;
+    margin-right: 0;
+}
+
+#site-footer-bottom .social a.youtube {
+    background-position: -48px -50px;
+}
+
+
+
+/* forms */
+
+.intro-box {
+    border-radius: 15px;
+    padding: 10px 20px 5px 20px;
+}
+
+.intro-box .halves {
+    width: 50%;
+    margin: 0;
+}
+
+.intro-box .halves .halves {
+    width: 40%;
+}
+
+.intro-box .halves ul.halves,
+.intro-box .halves p.halves:last-child {
+    width: 60%;
+}
+
+.intro-box .halves p.halves:last-child {
+    padding-top: 25px;
+}
+
+#form-contents.thank-you-message {
+    text-align: left;
+}
+
+.landing-form section .right-form.small-full {
+    padding: 0;
+}
+
+.small-full.right-form .form {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.cards .cta,
+#content .cta.link a,
+#content .cta {
+    background-image: url(/wp-content/themes/baker/images/button-double-arrow.png);
+    background-repeat: no-repeat;
+    background-size: auto 10px;
+    padding: 15px 40px 15px 15px;
+    line-height: 12px;    
+}
+
+#content .expanded .cta {
+    background-image: url(/wp-content/themes/baker/images/button-double-arrow-down.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: auto 10px; 
+}
+
+footer .cards .cta {
+    padding: 15px;
+}
+
+#content .cta.link {
+    padding: 0;
+}
+
+#content .cta span {
+    display: none;
+}
+
+#content .cta.link {
+    background-image: none;
+}
+
+.form p input[type=submit] {
+    padding: 15px 35px 15px 15px !important;
+    line-height: 21px;
+}
+
+.form h2 + .inline-form:first-child,
+.form .inline-form:first-child {
+    padding-top: 20px;
+}
+
+#content form input[type=submit] {
+    background-image: url(/wp-content/themes/baker/images/button-double-arrow-tablet.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: auto 13px;
+}
+
+.landing-form section {
+    padding-bottom: 40px;
+}
+
+#block-05 .col.small-full.right-form {
+    padding: 0;
+}
+
+.form .halves {
+    width: 100%;
+    padding: 0;
+}
+
+.accordion form .col {
+    background: transparent;
+    border: 0;
+}
+
+#block-05 .accordion form .col.halves.second {
+    display: none;
+}
+
+#content .inline-form ul li input,
+#content .inline-form ul li textarea {
+    max-width: none;
+}
+
+
+/* video & tertiary */
+
+.video-gallery #banner {
+    min-height: 300px;
+    margin-bottom: 40px;
+}
+
+.video-gallery #content h2 {
+    padding: 0px 40px 20px 20px;
+}
+
+.video-gallery #content .container .col {
+    position: relative;
+}
+
+.tertiary-columns .col,
+.accordion .col {
+    background: #fff;
+    padding: 20px;
+    border-top: 1px solid #ccc;
+}
+
+.large-full .col > img:first-child {
+    width: 90px;
+    height: 90px;
+    border-radius: 90px;
+    margin: 0 10px 10px 0;
+    float: left;
+}
+
+.large-full .col img + h3 {
+    clear: none;
+    width: auto;
+    margin: 10px 0;
+}
+
+.large-full .col p {
+    clear: both;
+    padding-bottom: 15px;
+}
+
+.large-full .col p:last-child {
+    padding-bottom: 0;
+}
+
+.scroll-to-top {
+    display: none !important;
+}
+
+
+.close-button {
+    z-index: 900;
+    left: 15px;
+    top: 15px;
+    width: 40px;
+}
+
+.accordion .large-full .col p {
+    clear: none;
+}
+
+
+#content form input[type=submit],
+.cta.bottom.small-button,
+.cta.button {
+    display: inline-block;
+    border-radius: 30px;
+}
+
+.cta.bottom,
+.cta.button.small-bottom {
+    display: block;
+    border-radius: 15px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.hidden-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+}
+
+.slides li .play-button {
+    position: absolute;
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    top: 60px;
+    left: 50%;
+    margin: 0 0 0 -40px;
+}
+
+
+
+.col {
+    border: 0px solid rgba(0,0,0,0);
+    float: left;
+    -moz-background-clip: padding-box !important;
+    -webkit-background-clip: padding-box !important;
+    background-clip: padding-box !important;
+}
+
+.container {
+	padding: 0;
+}
+
+#site-footer-bottom {
+    padding: 25px 0 40px;
+}
+
+.text-block {
+    padding: 20px 0;
+}
+
+.home #block-04 .text-block {
+    padding-top: 0;
+}
+
+.tertiary-columns {
+    padding-top: 50px;
+}
+
+.cta.left {
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+.accordion .col.large-col-4 {
+    padding-top: 20px;
+    padding-right: 80px;
+}
+
+.text-block.blog {
+}
+
+.cta {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#content .cta {
+    margin-bottom: 20px;
+}
+
+.cards .col {
+    padding-bottom: 20px;
+}
+
+#site-footer-top,
+#site-footer-bottom {
+    padding: 48px 0;
+}
+
+
+
+.col {
+	padding: 0 0px;
+}
+
+
+.small-col-1 {
+    width: 33.3333333333%;
+}
+
+.small-col-2 {
+    width: 66.6666666667%;
+}
+
+.small-halves .col {
+	width: 50%;
+    padding: 0 15px;
+}
+
+.small-full {
+    margin-left: 0;
+    width: 100%;
+    padding: 0 20px;
+}
+
+#content .small-full {
+    margin-top: 200px;
+    background: #fff;    
+}
+
+#content.landing-form #banner .small-full,
+.secondary-template #block-02 .small-full,
+.secondary-template #block-04 .small-full,
+.secondary-template #block-06 .small-full {
+    margin-top: 200px;
+}
+
+
+.home #content #block-04 .small-full {
+    margin-top: 220px;
+}
+
+.home #content #block-01,
+.home #content #block-03,
+ #content.secondary-template section {
+    border-bottom: 1px solid #ccc;
+}
+
+#content.landing-form .small-full {
+    margin-top: 20px;
+}
+
+#content.landing-form #banner .small-full {
+    padding: 0;
+}
+
+#content.landing-form #banner .text-block {
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.form ul li {
+    padding-bottom: 10px;
+}
+
+
+#content.landing-form .col .form h2 {
+    padding: 0 0 20px 0;
+    background-color: transparent;
+}
+
+.video-gallery #content .small-full,
+#content .tertiary-columns .small-full,
+#content .accordion .small-full,
+.home #content #block-02 .small-full {
+    margin-top: 0;
+}
+
+.video-gallery #content .small-full {
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 400px) {
+    #content .small-full {
+        margin-top: 150px;
+    }
+}

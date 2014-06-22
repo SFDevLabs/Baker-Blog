@@ -1,0 +1,1091 @@
+/* large screen css */
+
+.about-baker #content.secondary-template #block-03 h2,
+.about-baker #content.secondary-template #block-05 h2,
+.about-baker #content.secondary-template #block-03 p,
+.about-baker #content.secondary-template #block-05 p,
+.about-baker #content.secondary-template #block-03 h3,
+.about-baker #content.secondary-template #block-05 h3,
+.about-baker #content.secondary-template #block-03 ul li,
+.about-baker #content.secondary-template #block-05 ul li,
+.about-baker #content.secondary-template #block-03 ol li,
+.about-baker #content.secondary-template #block-05 ol li,
+.about-baker #content.secondary-template #block-03 dl,
+.about-baker #content.secondary-template #block-05 dl,
+#subnav a,
+#subnav a:visited,
+#subnav a:hover,
+#subnav a:active,
+#site-header #primary-nav #contact-us > span {
+    color: #fff;
+}
+
+
+
+#subnav a:hover {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/*typography */
+
+#content.landing-form .left-content p.jumbo  {
+    font-size: 150px;
+    line-height: 130px;
+}
+
+#content.landing-form .left-content p.jumbo .dollar {
+    font-size: 45px;
+    vertical-align: top;
+    line-height: 45px;
+}
+
+.comments,
+#main .post .post-meta,
+.side.post .post-meta {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+#content h1 {
+    font-size: 65px;
+    line-height: 65px;
+    padding-bottom: 24px;
+}
+
+.hero.post h2,
+#mainsite-links h2 {
+    font-size: 52px;
+    line-height: 48px;
+}
+#mainsite-links h2 {    
+    padding-bottom: 24px;
+}
+
+.cta,
+form input[type=submit],
+#content.landing-form .left-content .intro-box .halves ul li,
+#content.landing-form .left-content .intro-box .halves p.halves:last-child,
+form p,
+.privacy,
+label,
+form ul li select,
+form ul li input,
+.form textarea,
+#contact-us,
+header ul li {
+    font-size: 18px;
+    line-height: 20px;
+}
+
+#content section .col ul li,
+#content section .col ol li,
+.page-template-tertiary-php #content h3,
+h4,
+dl dt,
+dl dd,
+p,
+ul li,
+ol li {
+    font-size: 23px;
+    line-height: 28px;
+}
+
+
+#content.landing-form .left-content p,
+#content.landing-form .left-content ul li,
+#content.landing-form .left-content ol li,
+.videos p {
+    font-size: 17px;
+    line-height: 24px;
+}
+
+.quote-info p {
+    font-size: 23px;
+    line-height: 28px;
+}
+
+.cta span {
+    font-size: 33px;
+}
+
+.post h2,
+.landing-form.orange-blue .left-content h3,
+.landing-form .left-content h2,
+.quote-info h3,
+blockquote,
+.home #content .text-block p,
+.cards p,
+#mainsite-links .card p {
+    font-size: 24px;
+    line-height: 30px;
+    padding-bottom: 30px;
+}
+
+#content.landing-form.orange-blue .left-content p,
+#content.landing-form.orange-blue .left-content ul li,
+.landing-form h3 {
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.landing-form #banner .text-block p {
+    font-size: 25px;
+    line-height: 28px;
+}
+
+.white-bg.text-block h2,
+.home .text-block h2 {
+}
+
+#content section .col ul li,
+#content section .col ol li,
+.text-block.white-bg p,
+footer .text-block p,
+.accordion p,
+.home #content .text-block p {
+    padding-bottom: 20px;
+}
+
+#content.landing-form .left-content ul li,
+#content.landing-form section .form ul li,
+.landing-form .left-content h2,
+.left-content p,
+.left-content ul,
+.page-template-tertiary-php #content h3,
+.text-block p {
+    padding-bottom: 10px;
+}
+
+.home #content .text-block.blog p,
+footer p,
+.footer-links h2,
+.footer-links h3,
+.footer-links ul li {
+    font-size: 19px;
+    line-height: 24px;
+}
+
+.video-gallery h2 {
+    margin-bottom: 20px;
+}
+
+.landing-form.orange-blue h2 span:first-child {
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+#content.landing-form .left-content .halves ul.halves:last-child {
+    padding-top: 20px;
+}
+
+#content.landing-form .left-content .halves p.halves:last-child {
+    padding-top: 45px;
+}
+
+
+/* graphics */
+
+
+.cards .col {
+    padding-top: 165px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+#content.landing-form .form h2 {
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.site-title,
+.site-title a {
+    width: 240px;
+    height: 90px;
+}
+
+.site-title a {
+    background: transparent url(../images/baker-electric-solar-logo.png) center center no-repeat;
+}
+
+
+form input[type=submit],
+.cta.button {
+    border-radius: 80px;
+}
+
+.cta.bottom {
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.slides li .play-button {
+    position: absolute;
+    cursor: pointer;
+    height: 160px;
+    width: 160px;
+    left: 50%;
+    top: 50%;
+    margin: -80px 0 0 -80px;
+}
+
+.large-full .col .radius,
+.large-full .col > img:first-child {
+    width: 290px;
+    height: 290px;
+    border-radius: 290px;
+    margin-bottom: 15px;
+}
+
+.scroll-to-top {
+    left: -30px;
+}
+.close-button {
+    left: -120px;
+}
+
+
+/* header */
+
+#site-header .nav-email,
+#site-header .mobile-trigger {
+    display: none;
+}
+
+.solar-benefits #site-header  #primary-nav .nav-solar-benefits {
+    background: transparent url(/wp-content/themes/baker/images/subnav-solar-benefits.png) center bottom no-repeat;
+}
+
+.about-baker #site-header  #primary-nav .nav-about-baker {
+    background: transparent url(/wp-content/themes/baker/images/subnav-about-baker.png) center bottom no-repeat;
+}
+
+.residential #site-header  #primary-nav .nav-residential-solutions {
+    background: transparent url(/wp-content/themes/baker/images/subnav-residential.png) center bottom no-repeat;
+}
+
+.commercial #site-header  #primary-nav .nav-commercial-solutions {
+    background: transparent url(/wp-content/themes/baker/images/subnav-commercial.png) center bottom no-repeat;
+}
+
+#site-header h1,
+#site-header ul li,
+#site-header ul li a {
+    display: block;
+    float: left;
+}
+
+#site-header ul li a {
+    float: none;
+    margin: 0;
+    width: 100%;
+    height: 60px;
+}
+
+#site-header #primary-nav ul {
+    display: block;
+    float: right;
+}
+
+#site-header #primary-nav ul li {
+    width: 160px;
+    height: 60px;
+    text-align: center;
+}
+
+#site-header #primary-nav ul li span {
+    display: block;
+}
+
+#site-header .nav-email {
+    display: none !important;
+}
+
+#site-header #contact-us {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    height: auto;
+    width: 143px;
+    text-align: center;
+    line-height: 40px;
+}
+
+#site-header #contact-us span {
+    display: block;
+    height: 40px;
+}
+
+#site-header #contact-us > span {
+    cursor: pointer;
+}
+
+#site-header h1 {
+    margin: 20px 0;
+}
+
+#site-header #primary-nav ul {
+    padding-top: 70px;
+}
+
+#subnav,
+#site-header #subnav ul {
+    width: 100%;
+}
+
+#site-header #subnav ul {
+    text-align: center;
+}
+
+#site-header #subnav ul li {
+    margin: 0 15px;
+    display: inline-block;
+    float: none;
+}
+
+#site-header #subnav ul li a {
+    line-height: 60px;
+}
+
+#site-header #primary-nav #contact-us-details {
+    display: none;
+    position: absolute;
+    right: 145px;
+    top: 0;
+    height: 40px;
+    width: 460px;
+    padding: 0;
+    text-align: center;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmMmYyZjIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  #ffffff 0%, #f2f2f2 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f2f2f2)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#f2f2f2 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ffffff 0%,#f2f2f2 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ffffff 0%,#f2f2f2 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ffffff 0%,#f2f2f2 100%); /* W3C */
+}
+
+#site-header #primary-nav #contact-us-details li,
+#site-header #primary-nav #contact-us-details li a,
+#site-header #primary-nav #contact-us-details li span {
+    display: inline-block;
+    float: none;
+    clear: none;
+    width: auto;
+    line-height: 40px;
+    margin: 0 14px;
+}
+
+/* footer */
+
+footer .legal p {
+    display: inline;
+    line-height: 30px;
+    margin-right: 15px;
+}
+
+footer .legal p:first-child {
+    display: block;
+}
+
+footer .social a,
+footer .social,
+footer .logo {
+    display: block;
+    float: left;
+}
+
+footer .legal {
+    padding-top: 40px;
+}
+
+footer .logo {
+    margin-right: 30px;
+}
+
+footer .logo.angies {
+    margin-right: 20px;
+}
+
+footer .logo.sunpower {
+    clear: both;
+    margin-top: 30px;
+}
+
+#site-footer-bottom .container:before,
+#site-footer-bottom .container:after {
+    content: none;
+    display: none;
+}
+
+
+
+#content > section {
+    position: relative;
+}
+
+.col {
+    border: 0px solid rgba(0,0,0,0);
+    float: left;
+    -moz-background-clip: padding-box !important;
+    -webkit-background-clip: padding-box !important;
+    background-clip: padding-box !important;
+}
+
+.flex-direction-nav {
+    margin: 0 auto;
+}
+
+.flex-direction-nav,
+.container {
+    /*max-width: 1040px;*/
+    /*max-width: 1010px;*/
+    max-width: 1000px;
+}
+
+#site-footer-bottom {
+    padding: 40px 0 60px;
+}
+
+.page-template-tertiary-php #block-01,
+#content > section .container {
+    padding: 40px 0;
+}
+
+#content > section .flexslider .container {
+    padding: 0;
+}
+
+#content > section.expanded .container {
+    padding-bottom: 120px;
+}
+
+.page-template-tertiary-php #block-01 {
+    height: auto;
+}
+
+#site-header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    z-index: 900;
+}
+
+.circle {
+    position: absolute;
+    top: 0;
+    max-width: 700px;
+    max-height: 530px;
+    right: -290px;
+    z-index: -1;
+}
+
+.circle.transparent {
+    max-width: 1400px;
+    max-height: 930px;
+    right: -600px;
+}
+
+.circle.orange-circles {
+    max-width: 850px;
+    max-height: 570px;
+    right: -170px;
+}
+
+
+.landing-form .accordion {
+    padding-top: 20px;
+}
+
+.tertiary-columns .col,
+.accordion .col,
+.cta,
+.cta.link a,
+.text-block {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.cta.link {
+    padding: 0;
+}
+
+
+/* forms */
+
+
+.form,
+#content .text-block.no-cta {
+    border-radius: 40px;
+}
+
+.form form,
+.form .privacy {
+    padding: 0 40px;
+}
+
+.form {
+    min-height: 400px;
+}
+
+.form h3 {
+    text-align: center;
+}
+
+#form-contents.thank-you-message,
+.form form {
+    padding: 20px 40px;
+}
+
+.form {
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+
+
+.intro-box {
+    border-radius: 50px;
+    padding: 20px 30px 0 30px;
+}
+
+.cta.link a,
+.cta {
+    padding: 15px 50px 15px 30px;
+    line-height: 21px;
+}
+
+.cta.link.bottom a {
+    padding-right: 30px;
+}
+
+
+.form p input[type=submit] {
+    padding: 15px 50px 15px 30px !important;
+    line-height: 21px;
+}
+
+.form h3 {
+    padding: 40px 40px 0px;
+}
+
+.inline-form p.submit-button,
+.inline-form + p.privacy {
+    width: auto;
+    margin: 0 auto;
+    padding-left: 180px;
+}
+
+.inline-form label,
+.inline-form input,
+.inline-form textarea {
+    display: block;
+    float: left;
+}
+
+.inline-form ul li label {
+    width: 165px;
+    text-align: right;
+    line-height: 52px;
+    margin-right: 15px;
+}
+
+.inline-form ul li label.multiline {
+    line-height: 24px;
+}
+
+.inline-form + p.privacy {
+    padding-left: 220px;
+    padding-top: 20px;
+}
+
+.form .inline-form {
+    padding-top: 40px;
+}
+
+.form form:last-child {
+    padding-bottom: 0;
+}
+
+.orange-white .inline-form ul li label {
+    width: 95px;
+}
+
+.orange-white .inline-form ul li input, 
+.orange-white .inline-form ul li textarea {
+    max-width: 290px;
+}
+
+.orange-white .inline-form p.submit-button, 
+.orange-white .inline-form + p.privacy {
+    padding-left: 115px;
+}
+
+
+
+.solar-benefits .intro .text-block,
+.tertiary-columns .col:first-child,
+.accordion .col:first-child,
+.text-block.blog {
+    padding-right: 0;
+}
+
+.tertiary-columns .col:last-child,
+.accordion div .col:last-child {
+    padding-left: 0;
+}
+
+.tertiary-columns .col.center,
+.accordion .col.center {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#content.tertiary-template h2 + p {
+    padding-bottom: 30px;
+}
+.tertiary-columns {
+    padding-top: 50px;
+}
+
+
+.cta.left {
+    float: left;
+    margin: 0 20px 0 -30px;
+}
+
+.accordion .col.large-col-4 {
+    padding-top: 20px;
+    padding-right: 80px;
+}
+
+.home #block-05 .accordion .col.large-col-3.right-form {
+    padding: 0;
+}
+
+.text-block.blog {
+    padding: 15px 0 0 0;
+}
+
+.cta,
+.cta.link a {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.cards .col {
+    padding-bottom: 40px;
+}
+
+.cards .text-block {
+    height: 255px;
+}
+
+#mainsite-links,
+#site-footer-bottom {
+    padding: 48px 0;
+}
+
+#content .featured {
+    padding-top: 160px;
+}
+
+#banner {
+    clear: both;
+    float: none;
+    width: 100%;
+    margin-top: 190px;
+    height: 316px;
+    position: relative;
+}
+
+.landing-form #banner {
+    margin-top: 130px;
+    padding: 20px 0;
+    height: 389px;
+}
+
+.landing-form.orange-blue #banner {
+    height: 439px;
+}
+
+.landing-form .form h2 {
+    padding: 10px 40px;
+}
+
+.landing-form.orange-blue .form h2 {
+    margin-top: -115px;
+    padding: 20px 40px;
+}
+
+.video-gallery #banner .container,
+.video-gallery #banner #banner-video,
+.video-gallery #banner {
+    height: 632px;
+}
+
+.video-gallery #banner #banner-video {
+    background: transparent url(/wp-content/themes/baker/images/loading.gif) center center no-repeat;
+}
+
+.video-gallery #banner #banner-video,
+.video-gallery #banner #banner-video-dimmer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.video-gallery #banner #banner-video-dimmer {
+    background: rgba(0,0,0,0.5);
+    display: none;
+}
+
+.video-gallery #content .container .col:nth-child(1),
+.video-gallery #content .container .col:nth-child(4),
+.video-gallery #content .container .col:nth-child(7) {
+    margin-left: 0;
+    clear: both;
+}  
+
+.video-gallery #content .container .col {
+    margin-bottom: 40px;
+    position: relative;
+} 
+
+#content.secondary-template > section > .container {
+    min-height: 395px;
+}
+
+section.x-large {
+    min-height: 770px;
+}
+
+section.large.subpage {
+    min-height: 580px;
+}
+
+section.large {
+    min-height: 640px;
+}
+
+section.medium {
+    min-height: 600px;
+}
+
+section.short {
+    min-height: 385px;
+}
+
+
+.home #block-01 .col {
+    margin-top: 130px;
+}
+
+.home #block-03 .col {
+    margin-top: 30px;
+}
+
+.home #block-04 .col {
+    margin-top: 10px;
+}
+
+.home #block-05 .col {
+    margin-top: 10px;
+}
+
+.home #block-06 .col {
+    margin-top: 70px;
+}
+
+.secondary-template #block-01 .col {
+    margin-top: 50px;
+}
+
+/*.solar-benefits #block-05 .col.intro,
+.solar-benefits #block-02 .col.intro,
+.solar-benefits #block-03 .col.intro {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.solar-benefits #block-04 .col.intro {
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+.solar-benefits #block-06 .col.intro {
+    margin-top: 18px;
+    margin-bottom: 18px;
+}*/
+
+.blur-wrap {
+    position: absolute;
+    width: 900px;
+    height: 100%;
+    top: 0;
+    left: 50%;
+    margin-left: -750px;
+}
+
+.solar-benefits #block-05 .blur-wrap {
+    background: transparent url(/wp-content/themes/baker/images/yellow-orange-blur.png) 25% top no-repeat;
+    background-size: 100% auto;
+}
+
+.accordion .large-col-4,
+.accordion .large-col-5,
+.footer-links .col:first-child,
+.container .col:first-child {
+    margin-left: 0;
+}
+
+.container .row .col:first-child,
+.col {
+    margin-left: 3.846153846154%;
+}
+
+.large-col-1 {
+    width: 16.6666666667%;
+}
+
+.videos .large-col-2 {
+    width: 30.769230769231%;
+}
+
+.large-col-2 {
+    width: 31.683168316832%;
+    max-width: 320px;
+}
+
+
+.large-col-2.center {
+    width: 28.712871287129%;
+}
+
+.large-col-3 {
+    width: 46.634615384615%;
+}
+
+.home #block-05 .accordion .col.large-col-3.right-form {
+    width: 49.51923076923%;
+}
+.landing-form .large-col-3 {
+    width: 48%;
+}
+
+.large-col-4 {
+    width: 62.5%;
+}
+
+.landing-form .large-col-4 {
+    width: 64.4%;
+}
+
+.large-col-5 {
+    width: 83.3333333333%;
+}
+
+.large-fourths .col {
+    width: 25%;
+    padding-left: 2.884615384615%;
+    margin-left: 0;
+}
+
+.halves {
+    width: 50%;
+    margin: 0;
+}
+
+.halves.extra {
+    width: 100%;
+}
+
+.halves.first {
+    padding-right: 3.846153846154%;
+}
+
+.halves.second {
+    padding-left: 3.846153846154%;
+}
+
+
+.large-full {
+    margin-left: 0;
+    width: 100%;
+    clear: both;
+    float: none;
+}
+
+@media all and (max-width: 1300px) {
+
+    #content .close-button {
+        left: -40px;
+        width: 40px;
+    }
+
+    #content .scroll-to-top {
+        width: 160px;
+        left: 40px;
+    }
+
+    .accordion .large-full {
+        padding-bottom: 20px;
+    }
+
+
+}
+
+
+@media all and (max-width: 1100px) {
+    #content .close-button {
+        left: 10px;
+    }
+
+
+    .page-template-tertiary-php #block-01, 
+    #content > section .container,
+    .container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    section#block-01 .flexslider .container, 
+    section#block-06 .flexslider .container {
+        padding: 0 60px;
+    }
+
+    .home h2,
+    .cards h2 {
+        font-size: 54px;
+        line-height: 54px;
+    }
+
+    h2 {
+        font-size: 48px;
+        line-height: 42px;
+    }
+
+    .home #content .text-block.blog p,
+    footer p,
+    .footer-links h2,
+    .footer-links h3,
+    .footer-links ul li {
+        font-size: 19px;
+        line-height: 24px;
+    }
+
+    header #subnav ul li {
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    #site-header #primary-nav #contact-us-details li,
+    #site-header #primary-nav #contact-us-details li a,
+    #site-header #primary-nav #contact-us-details li span {
+        margin: 0px;
+    }
+
+    .large-full .col > img:first-child {
+        width: 100%;
+        height: auto;
+    }
+
+    form input[type=submit],
+    .quote-info p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+
+
+    #site-header #primary-nav ul li {
+        width: auto;
+        padding: 0 20px;
+    }
+
+    #site-header #primary-nav ul #contact-us {
+        padding: 0 20px;
+        right: 40px;
+        line-height: 40px;
+    }
+
+    .video-gallery #content.video-gallery #banner,
+    #content.video-gallery #banner {
+        height: 438px;
+    }
+
+    .video-gallery #content.video-gallery #banner .container,
+    #content.video-gallery #banner .container {
+        width: 700px;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    h2 {
+        font-size: 39px;
+        line-height: 39px;
+    }
+
+    .home #content .text-block.blog p,
+    footer p,
+    .footer-links h2,
+    .footer-links h3,
+    .footer-links ul li {
+        font-size: 19px;
+        line-height: 24px;
+    }
+
+    .quote-info p,
+    .cta {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .cta span {
+        font-size: 20px;
+    }
+
+    header #subnav ul li {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    footer .logo {
+        margin-right: 20px;
+    }
+
+    .page-template-tertiary-php #content h3,
+    h4,
+    dl dt,
+    dl dd,
+    p,
+    ul li,
+    ol li,
+    .quote-info h3,
+    blockquote,
+    .home #content .text-block p,
+    .cards p,
+    #mainsite-links .card p {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .quote-info h3,
+    blockquote,
+    .home #content .text-block p,
+    .cards p,
+    #mainsite-links .card p {
+        padding-bottom: 20px;
+    }
+    .circle.orange-circles img {
+        max-height: 100%;
+    }
+    .circle.orange-circles {
+        max-width: 750px;
+        max-height: 500px;
+        right: -150px;
+    }
+}
