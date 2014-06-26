@@ -9,8 +9,19 @@
 
 	<link rel="stylesheet" type="text/css" media="screen" href="../css/style.css" />
 <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-
 	<style type="text/css">
+
+		.blog #site-header  #primary-nav .nav-blog {
+    background: transparent url(../images/subnav-blog-2.png) center bottom no-repeat;
+    background-size: 49px auto;
+}
+		#content:after,
+		.text-block:after,
+		.meta:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
 
 		#mainsite-links .cards .one {
 			background: transparent url(../images/footer-client-reviews.jpg) left top no-repeat;
@@ -40,23 +51,20 @@
 			}
 		}
 
-		.featured {
-			background: transparent url(../images/hero-bg.jpg) center center no-repeat;
-			background-size: cover;
-			padding-bottom: 40px;
-		}
-
-		.featured .post {
-			border-radius: 20px;
-			overflow: hidden;
+		body {
+			background: #f7f7f7;
 		}
 
 		.hero.post .text-block.white-bg {
-			padding: 40px 30px 20px 30px;
+			padding: 40px 30px 40px 30px;
 		}
 
 		.hero.post .post-meta {
 			padding-bottom: 12px;
+		}
+
+		.post {
+			position: relative;
 		}
 
 		.post .post-meta {
@@ -90,29 +98,49 @@
 			padding: 12px 0 40px;
 		}
 
-		/*#main .post:nth-child(odd) {
+		.featured h1,
+		.featured .hero.post {
+			margin-left: 0;
+		}
+
+		#main .post.col:nth-child(2),
+		#main .post.col:nth-child(5),
+		#main .post.col:nth-child(8),
+		#main .post.col:nth-child(11) {
 			clear: both;
 			margin-left: 0;
-		}*/
+		}
 
 		#sidebar h2 {
 			padding: 0 0 9px 0;
 			margin: 0 0 10px 0;
 			border-bottom: 1px solid #ddd;				
 		}
+
+		#main {
+			clear: both;
+		}
 		#main > h2:first-child {
-			margin: 0 0 20px 0;
+			margin: 0 0 30px 0;
 			border-bottom: 1px solid #ddd;			
-			padding: 0 0 19px 0;
+			padding: 0 0 29px 0;
+		}
+
+		.post {
+			border-bottom: 1px solid #e7e7e7;
+
 		}
 
 		#main .post {
-			width: 100%;
-			clear: both;
-			margin: 0 0 20px 0;
-			border-bottom: 1px solid #ddd;
-			padding: 0 0 19px 0;
 			float: left;
+		}
+
+		#main .post .white-bg {
+			min-height: 180px;
+		}
+
+		.post .date {
+			font-family: 'GillSansMTStd-MediumItalic', 'Lucida Grande', 'Tahoma', sans-serif;
 		}
 
 		.search {
@@ -138,10 +166,18 @@
 			background-image: none;
 		}
 
+		.twitter.button.cta,
+		.rss.button.cta {
+			background-image: none;
+			padding-right: 30px !important;
+			margin-bottom: 30px;
+		}
+
 		#sidebar {
-		    padding: 40px 40px 3800px;
-		    background: #f9f9f9;
-		    margin-bottom: -3800px;
+			padding: 160px 0 3800px 30px;
+			margin-bottom: -3800px;
+			border-left: 1px solid #e7e7e7;
+			background: linear-gradient(to right, rgba(0,0,0,0.025) 0%,rgba(0,0,0,0) 20%);
 		}
 
 		#sidebar ul {
@@ -165,25 +201,89 @@
 			padding: 10px 30px;
 		}
 
-				.twitter.button.cta,
-		.rss.button.cta {
-			background-image: none;
-			padding-right: 30px !important;
-			margin-bottom: 30px;
-		}
-
-		#content {
-			border-bottom: 1px solid #f8f8f8;
+		#main .post.large-col-2 {
+			margin-left: 3.5%;
+			width: 31%;
 		}
 
 		footer {
+			background: #fff;
 			border-top: 1px solid #eee;
+		}
+
+		.post h2 {
+		    font-size: 20px;
+		    line-height: 22px;
+		    padding: 0;
+		}
+
+		.hero.post h2 {
+			border-bottom: 1px solid #eee;
+			padding-bottom: 14px;
+			margin-bottom: 15px;
+		}
+		.blog .text-block.white-bg .author-name,
+		.blog .text-block.white-bg .date {
+			font-size: 16px;
+		}
+		.blog .hero.post .text-block.white-bg .author-name {
+			font-size: 20px;
+		}
+		.post .text-block.white-bg {
+			padding: 30px;			
+		}
+
+.blog #sidebar .author-name,
+		.blog .text-block.white-bg .author-name {
+			font-family: 'GillSansMTStd-MediumItalic';
+		}
+		.blog .text-block.white-bg .date {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			font-family: 'GillSansMTStd-Medium';	
+			text-transform: uppercase;
+			font-size: 14px;
+			padding: 5px 0 0 30px;
+			background: #f4f4f4;
+			border-top: 1px solid #f4f4f4;
+			border-bottom: 1px solid #f4f4f4;
+		}
+
+.blog #sidebar .author-name .author,
+		.blog .text-block.white-bg .author-name .author {
+			font-family: 'GillSansMTStd-Medium';
+		}
+
+		.hero .meta {
+			border-bottom: 1px solid #eee;
+		}
+
+		.blog .post .white-bg .comments {
+			position: absolute;
+			bottom: -1px;
+			right: 0;
+			padding: 0;
+			border-top: 1px solid #e7e7e7;
+			border-left: 1px solid #e7e7e7;
+
+		}
+
+		.blog .featured .post .white-bg .comments a,
+		.blog .post .white-bg .comments a {
+			display: block;
+			padding: 5px 10px;
+			border-left: 5px solid #f7f7f7;
+			border-top: 5px solid #f7f7f7;
+			color: #fff;
+			font-size: 14px;
+			line-height: 20px;
 		}
 
 		#sidebar .time-ago,
 		.blog #sidebar .author-name {
 			font-size: 12px;
-			line-height: 18px;
 			display: block;
 			border-bottom: 1px solid #e7e7e7;
 			padding-bottom: 9px;
@@ -207,7 +307,7 @@
 
 </head>
 
-<body class="blog orange">
+<body class="blog">
 
 	<!-- header -->
 	<header id="site-header" role="banner">
@@ -240,10 +340,10 @@
     <!-- content -->      	
 	<div id="content">
 
+<div class="col small-full medium-col-3 large-col-4">
 
 		<div class="featured">
-			<div class="container">
-				<h1>Baker Solar Blog</h1>
+				<h1 class="col large-col-5">Baker Solar Blog</h1>
 
 				<div class="hero-group">
 
@@ -257,25 +357,25 @@
 						<div class="text-block white-bg opacity-85">
 							<h2><a href="http://bakerelectricsolar.com/blog/sunpower-solar-loans/" rel="bookmark" title="SunPower Solar Loans">SunPower Solar Loans</a></h2>
 
-							<p class="post-meta">
-								By
+							<p class="author-name">
+								by 
 								<span class="author vcard">
 									<span class="fn">
 										<a href="http://bakerelectricsolar.com/blog/author/mquicke/" title="Posts by Matt Quicke" rel="author">Matt Quicke</a>
 										<a href="https://plus.google.com/u/1/105340217663579475638/about?hl=en" rel="author" title="Google Plus Profile for +" plugin="Google Plus Authorship">+</a>
 									</span>
 								</span> 
-								on June 19, 2014 
 							</p>
 
 					    	<p>SunPower Corp. has partnered with Admirals Bank for a residential solar loan program. Maybe you’re thinking of making the switch to solar energy and have been eyeing the ultra-efficient SunPower panels for your home, but are concerned about the cost associated with purchasing such a great solar panel.</p>
-
+							<p class="date">June 19, 2014</p>
+						<p class="comments">
+								<a href="#" class="text-block orange"><i class="fa fa-comment"></i> 1</a>
+							</p>  
 						</div>
 
 
-						<p class="comments text-block orange">
-								<a href="#">Comments (0)</a>
-							</p>   
+ 
 					</div>
 					<!-- end post -->
 
@@ -290,21 +390,24 @@
 
 							<h2><a href="http://bakerelectricsolar.com/blog/baker-electric-solar-wins-neca-safety-awards/" rel="bookmark" title="Baker Electric Solar Wins Two Prestigious NECA Safety Awards">Baker Electric Solar Wins Two Prestigious NECA Safety Awards</a></h2>
 
-							<p class="post-meta">
-								By  
-								<span class="author vcard">
-									<span class="fn">
-										<a href="http://bakerelectricsolar.com/blog/author/mquicke/" title="Posts by Matt Quicke" rel="author">Matt Quicke</a>
-										<a href="https://plus.google.com/u/1/105340217663579475638/about?hl=en" rel="author" title="Google Plus Profile for +" plugin="Google Plus Authorship">+</a>
-									</span>
-								</span> 
-								on June 17, 2014  
-							</p>
-
-						</div>
-							<p class="comments text-block orange">
-								<a href="#">Comments (0)</a>
+							<div class="meta">
+								<p class="author-name">
+								by 
+									<span class="author vcard">
+										<span class="fn">
+											<a href="http://bakerelectricsolar.com/blog/author/mquicke/" title="Posts by Matt Quicke" rel="author">Matt Quicke</a>
+											<a href="https://plus.google.com/u/1/105340217663579475638/about?hl=en" rel="author" title="Google Plus Profile for +" plugin="Google Plus Authorship">+</a>
+										</span>
+									</span> 
+									
+								</p>
+								<p class="date">June 17, 2014</p>
+							</div>
+							<p class="comments">
+								<a href="#" class="text-block orange"><i class="fa fa-comment"></i> 0</a>
 							</p>  
+						</div>
+
 
 					</div>
 					<!-- end post -->
@@ -321,172 +424,173 @@
 								<a href="http://bakerelectricsolar.com/blog/will-your-solar-installer-outlast-your-solar-panel-installation/" rel="bookmark" title="Will Your Solar Installer Outlast Your Solar Panel Installation?">Will Your Solar Installer Outlast Your Solar Panel Installation?</a>
 							</h2>
 
-							<p class="post-meta">
-								<span class="small">By</span> 
+							<p class="author-name">
+								by
 								<span class="author vcard">
 									<span class="fn">
 										<a href="http://bakerelectricsolar.com/blog/author/mquicke/" title="Posts by Matt Quicke" rel="author">Matt Quicke</a>
 										<a href="https://plus.google.com/u/1/105340217663579475638/about?hl=en" rel="author" title="Google Plus Profile for +" plugin="Google Plus Authorship">+</a>
 									</span>
 								</span> 
-								on June 13, 2014 
 							</p>
-  
+								<p class="date">June 13, 2014</p>
+						<p class="comments">
+							<a href="#" class="text-block orange"><i class="fa fa-comment"></i> 0</a>
+						</p>     
 						</div> 
-						<p class="comments text-block orange">
-							<a href="#">Comments (0)</a>
-						</p>                   	
+                	
 					</div>
 					<!-- .post -->
 				</div>
 				<!-- .row -->
-			</div>
 		</div>
 		<!-- .featured -->
 
-		<div class="container">
 
 
-			<div id="main" class="col small-full medium-col-3 large-col-4">
+			<div id="main">
 
-				<h2>More from the Baker Blog</h2>
+				<h2>More from the Baker Solar Blog</h2>
 
-				<div class="post">
-					<a href="http://bakerelectricsolar.com/blog/diy-solar-energy-installation-kits/" title="Why DIY Solar Kits Are A Bad Idea" class="col small-full medium-col-3 large-col-3">
+				<div class="post col small-full medium-col-3 large-col-2">
+					<a href="http://bakerelectricsolar.com/blog/diy-solar-energy-installation-kits/" title="Why DIY Solar Kits Are A Bad Idea">
 						<img src="../images/numbers2.jpg" alt="DIY solar" />
 					</a>
 
-					<div class="col small-full medium-col-3 large-col-3">
+					<div class="text-block white-bg opacity-85">
 						<h2 class="title">
 							<a href="http://bakerelectricsolar.com/blog/diy-solar-energy-installation-kits/" rel="bookmark" title="Why DIY Solar Kits Are A Bad Idea">Why DIY Solar Kits Are A Bad Idea</a>
 						</h2>
-						<p class="post-meta">
-							By 
+						<p class="author-name">
+							by 
 							<span class="author vcard">
 								<span class="fn">
 									<a href="http://bakerelectricsolar.com/blog/author/mquicke/" title="Posts by Matt Quicke" rel="author">Matt Quicke</a><a href="https://plus.google.com/u/1/105340217663579475638/about?hl=en" rel="author" title="Google Plus Profile for +" plugin="Google Plus Authorship">+</a>
 								</span>
-							</span> on June 10, 2014
+							</span> 
 						</p>
-
+						<p class="date">June 10, 2014</p>
 						<p class="comments">
-							<a href="#">Comments (0)</a>
+							<a href="#" class=" text-block orange"><i class="fa fa-comment"></i> 0</a>
 						</p> 
 					</div>                      	
 				</div>
 				<!-- .post -->
 
 
-				<div class="post">
-					<a href="http://bakerelectricsolar.com/blog/baker-electric-top-solar-clean-tech-companies-list/" title="Baker Electric Solar No. 1 on Clean-Tech Companies List" class="col small-full medium-col-3 large-col-3">
+				<div class="post col small-full medium-col-3 large-col-2">
+					<a href="http://bakerelectricsolar.com/blog/baker-electric-top-solar-clean-tech-companies-list/" title="Baker Electric Solar No. 1 on Clean-Tech Companies List">
 						<img src="../images/roof-glow.jpg" alt="sdbj_logo_clean_tech_company" />
 					</a>
 
-					<div class="col small-full medium-col-3 large-col-3">
+					<div class="text-block white-bg opacity-85">
 
 						<h2 class="title">
 							<a href="http://bakerelectricsolar.com/blog/baker-electric-top-solar-clean-tech-companies-list/" rel="bookmark" title="Baker Electric Solar No. 1 on Clean-Tech Companies List">Baker Electric Solar No. 1 on Clean-Tech Companies List</a>
 						</h2>
 
-						<p class="post-meta">
-							By <span class="author vcard"><span class="fn"><a href="http://bakerelectricsolar.com/blog/author/mquicke/" title="Posts by Matt Quicke" rel="author">Matt Quicke</a><a href="https://plus.google.com/u/1/105340217663579475638/about?hl=en" rel="author" title="Google Plus Profile for +" plugin="Google Plus Authorship">+</a></span></span> <span class="small">on June 3, 2014
+						<p class="author-name">
+							by 
+							<span class="author vcard"><span class="fn"><a href="http://bakerelectricsolar.com/blog/author/mquicke/" title="Posts by Matt Quicke" rel="author">Matt Quicke</a><a href="https://plus.google.com/u/1/105340217663579475638/about?hl=en" rel="author" title="Google Plus Profile for +" plugin="Google Plus Authorship">+</a></span></span>
 						</p>
-							
-						<p class="comments">
-							<a href="#">Comments (0)</a>
+						<p class="date">June 3, 2014</p>
+						<p class="comments text-block orange">
+							<a href="#"><i class="fa fa-comment"></i> 3</a>
 						</p>
 					</div>
 
 				</div>
 				<!-- .post -->
 
-				<div class="post col small-full medium-col-3 large-col-3">
-					<a href="http://bakerelectricsolar.com/blog/baker-electric-solar-website-update/" title="Baker Electric Solar&#8217;s New Website!" class="col small-full medium-col-3 large-col-3">
+				<div class="post col small-full medium-col-3 large-col-2">
+					<a href="http://bakerelectricsolar.com/blog/baker-electric-solar-website-update/" title="Baker Electric Solar&#8217;s New Website!">
 						<img src="../images/family.jpg" alt="Baker_Electric_Solar_Website_Home_page" />
 					</a>
-					<div class="col small-full medium-col-3 large-col-3">
+					<div class="text-block white-bg opacity-85">
 					<h2 class="title">
 						<a href="http://bakerelectricsolar.com/blog/baker-electric-solar-website-update/" rel="bookmark" title="Baker Electric Solar&#8217;s New Website!">Baker Electric Solar&#8217;s New Website!</a>
 					</h2>
-					<p class="post-meta">
-						<span class="small">By</span> 
+					<p class="author-name">
+						By
 						<span class="author vcard">
 							<span class="fn"><a href="http://bakerelectricsolar.com/blog/author/mquicke/" title="Posts by Matt Quicke" rel="author">Matt Quicke</a>
 								<a href="https://plus.google.com/u/1/105340217663579475638/about?hl=en" rel="author" title="Google Plus Profile for +" plugin="Google Plus Authorship">+</a>
 							</span>
 						</span> 
-						on May 29, 2014
+						
 					</p>
 
-					<p class="comments">
-						<a href="#">Comments (0)</a>
+					<p class="date">May 29, 2014</p>
+					<p class="comments text-block orange">
+						<a href="#"><i class="fa fa-comment"></i> 0</a>
 					</p> 
 					</div>    
 				</div>
 				<!-- .post -->
 
-				<div class="post col small-full medium-col-3 large-col-3">
-					<a href="http://bakerelectricsolar.com/blog/baker-electric-solar-hosts-escondido-rotary-luncheon/" title="Baker Electric Solar Hosts Escondido Rotary Luncheon" class="col small-full medium-col-3 large-col-3">
+				<div class="post col small-full medium-col-3 large-col-2">
+					<a href="http://bakerelectricsolar.com/blog/baker-electric-solar-hosts-escondido-rotary-luncheon/" title="Baker Electric Solar Hosts Escondido Rotary Luncheon">
 						<img src="../images/solar-panels-on-house.jpg" alt="Baker_electric_solar_rotary" />
 					</a>
-					<div class="col small-full medium-col-3 large-col-3">
+					<div class="text-block white-bg opacity-85">
 					<h2>
 						<a href="http://bakerelectricsolar.com/blog/baker-electric-solar-hosts-escondido-rotary-luncheon/" rel="bookmark" title="Baker Electric Solar Hosts Escondido Rotary Luncheon">Baker Electric Solar Hosts Escondido Rotary Luncheon
 						</a>
 					</h2>
 					<p class="post-meta">
-						<span class="small">By</span> 
+						By
 							<span class="author vcard">
 								<span class="fn"><a href="http://bakerelectricsolar.com/blog/author/mquicke/" title="Posts by Matt Quicke" rel="author">Matt Quicke</a><a href="https://plus.google.com/u/1/105340217663579475638/about?hl=en" rel="author" title="Google Plus Profile for +" plugin="Google Plus Authorship">+</a>
 								</span>
-							</span> on May 23, 2014
+							</span>
 						</span>
 					</p>
 
-					<p class="comments">
-						<a href="#">Comments (0)</a>
+					<p class="date">May 23, 2014</p>
+					<p class="comments text-block orange">
+						<a href="#"><i class="fa fa-comment"></i> 1</a>
 					</p>  
 					</div>               	
 				</div>
 				<!-- /.post -->
 
-				<div class="post col small-full medium-col-3 large-col-3">
-					<a href="http://bakerelectricsolar.com/blog/firestorm-2014-baker-electric-company-update/" title="FIRESTORM 2014 Baker Electric Company Update" class="col small-full medium-col-3 large-col-3">
+				<div class="post col small-full medium-col-3 large-col-2">
+					<a href="http://bakerelectricsolar.com/blog/firestorm-2014-baker-electric-company-update/" title="FIRESTORM 2014 Baker Electric Company Update">
 						<img src="../images/electric.jpg" />
 					</a>
-					<div class="col small-full medium-col-3 large-col-3">
+					<div class="text-block white-bg opacity-85">
 					<h2>
 						<a href="http://bakerelectricsolar.com/blog/firestorm-2014-baker-electric-company-update/" rel="bookmark" title="FIRESTORM 2014 Baker Electric Company Update">FIRESTORM 2014 Baker Electric Company Update</a>
 					</h2>
 
-					<p class="post-meta">
+					<p class="author-name">
 						By
 						<span class="author vcard">
 							<span class="fn">
 								<a href="http://bakerelectricsolar.com/blog/author/ashley-arant-bes/" title="Posts by Ashley Arant" rel="author">Ashley Arant</a>
 								<a href="https://plus.google.com/105293367612397244700" rel="author" title="Google Plus Profile for +" plugin="Google Plus Authorship">+</a>
 							</span>
-						</span> on May 16, 2014
+						</span>
 					</p>
 
-
-					<p class="comments">
-						<a href="#">Comments (0)</a>
+					<p class="date">May 16, 2014</p>
+					<p class="comments text-block orange">
+						<a href="#"><i class="fa fa-comment"></i> 0</a>
 					</p> 
 					</div>                       	
 				</div>
 				<!-- /.post -->
 
-				<div class="post col small-full medium-col-3 large-col-3">
-					<a href="http://bakerelectricsolar.com/blog/baker-electric-solar-grows-into-new-facility/" title="Baker Electric Solar Grows into New 26,000 sq ft Facility" class="col small-full medium-col-3 large-col-3">
+				<div class="post col small-full medium-col-3 large-col-2">
+					<a href="http://bakerelectricsolar.com/blog/baker-electric-solar-grows-into-new-facility/" title="Baker Electric Solar Grows into New 26,000 sq ft Facility">
 						<img src="../images/solar-panels-flare.jpg" />
 					</a>
-					<div class="col small-full medium-col-3 large-col-3">
+					<div class="text-block white-bg opacity-85">
 					<h2>
 						<a href="http://bakerelectricsolar.com/blog/baker-electric-solar-grows-into-new-facility/" rel="bookmark" title="Baker Electric Solar Grows into New 26,000 sq ft Facility">Baker Electric Solar Grows into New 26,000 sq ft Facility</a>
 					</h2>
 
-					<p class="post-meta">
+					<p class="author-name">
 						By 
 						<span class="author vcard">
 							<span class="fn">
@@ -494,11 +598,12 @@
 								<a href="https://plus.google.com/u/1/105340217663579475638/about?hl=en" rel="author" title="Google Plus Profile for +" plugin="Google Plus Authorship">+</a>
 							</span>
 						</span>
-						on May 13, 2014
+						
 					</p>
 
+					<p class="date">May 13, 2014</p>
 					<p class="comments">
-						<a href="#">Comments (0)</a>
+						<a href="#" class=" text-block orange"><i class="fa fa-comment"></i> 2</a>
 					</p>    
 					</div>                    	
 				</div><!-- /.post -->
@@ -512,12 +617,12 @@
 
         	</div>
         	<!-- end main -->
-            
+</div>            
 
 			<!-- sidebar -->
 			<div id="sidebar" class="col small-full medium-col-3 large-col-2">
 
-				<p class="orange"><a href="#" class="cta button rss">Subscribe&nbsp;&nbsp;<i class="fa fa-rss"></i></a></p>
+				<p class="orange"><a href="#" class="cta button rss">Subscribe to RSS&nbsp;&nbsp;<i class="fa fa-rss"></i></a></p>
 				<!-- search -->
 				<form method="get" class="search" action="http://bakerelectricsolar.com/blog/" >
 			        <input type="text" class="field s" name="s" value="Search..." onfocus="if (this.value == 'Search...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search...';}" />
@@ -621,61 +726,21 @@
 					</ul>
 					<div class="orange">
 					<p class="follow-link cta button twitter"><a href="http://twitter.com/BakerSolar">Follow Us&nbsp;&nbsp;<i class="fa fa-twitter"></i></a></p></div>
-				</div>   	
+				</div> 
+			        
+				<!--<div class="social">
+					<a href="http://www.facebook.com/bakerelectricsolar" class="facebook" target="_blank">Facebook</a>
+					<a href="http://twitter.com/bakersolar" class="twitter" target="_blank">Twitter</a>
+					<a href="https://plus.google.com/109699838039427889159/posts" class="google-plus" target="_blank">Google Plus</a>
+					<a href="http://pinterest.com/BakerSolar/" class="pinterest" target="_blank">Pinterest</a>
+					<a href="http://www.yelp.com/biz/baker-electric-solar-escondido-3" class="yelp" target="_blank">Yelp</a>
+					<a href="http://www.youtube.com/user/BakerElectricSolar" class="youtube" target="_blank">YouTube</a>
+					<a href="http://www.linkedin.com/company/baker-electric-solar" class="linkedin" target="_blank">LinkedIn</a>
+					<a href="http://www.bakerelectricsolar.com/blog/feed/" class="rss">RSS</a>
+				</div> -->  	
 		            
 			</div>
 			<!-- end #sidebar -->
-
-		</div>
-		<!-- end .container -->
-
-
-		<!--<div id="mainsite-links">
-			<div class="container">
-
-				<div class="intro large-full">
-					<h2>Learn more about Baker Electric Solar</h2>
-					<p>Donec in felis tortor. Fusce sollicitudin porta eros, in consectetur velit rhoncus a. Fusce congue vestibulum odio, eget auctor purus blandit vel. Maecenas sit amet sapien at est venenatis convallis. Vestibulum ullamcorper rhoncus quam, vel consequat eros lobortis at. Curabitur ultrices eros sit amet tortor sagittis pretium. Sed sagittis sem quis gravida rhoncus. Fusce tristique libero sed aliquet varius. Donec sed pharetra libero. Morbi eu faucibus lacus, in fermentum odio. Quisque augue mi, viverra nec enim ut, accumsan consectetur est.</p>
-				</div>
-			</div>
-
-			<div class="container">
-				
-				<div class="cards">
-					<div class="col one small-full medium-col-2 large-col-2 edge green">
-						<div class="white-bg text-block">
-							<h2>Client Reviews</h2>
-							<p>Find out what our customers think.</p>
-						</div>
-						<div class="bottom cta">
-							<a href="/residential-solutions/video-gallery/">What they say <span>&raquo;</span></a>
-						</div>
-					</div>
-
-					<div class="col two small-full medium-col-2 large-col-2 center bright-blue">
-						<div class="white-bg text-block">
-							<h2>Baker Way</h2>
-							<p>Let us show you how simple solar can be.</p>
-						</div>
-						<div class="bottom cta">
-							<a href="/about-baker">Why Baker? <span>&raquo;</span></a>
-						</div>
-					</div>
-
-					<div class="col three small-full medium-col-2 large-col-2 edge orange-yellow right">
-						<div class="white-bg text-block">
-							<h2>Get a Quote</h2>
-							<p>The first step to solar is getting a free quote.</p>
-						</div>
-						<div class="bottom cta">
-							<a href="/get-a-free-quote/">Let's get going! <span>&raquo;</span></a>
-						</div>
-					</div>
-				</div>
-
-				
-			</div>
-		</div>-->
 
 	</div>
 	<!-- end #content -->

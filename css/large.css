@@ -61,6 +61,7 @@
     padding-bottom: 24px;
 }
 
+.comments,
 .cta,
 form input[type=submit],
 #content.landing-form .left-content .intro-box .halves ul li,
@@ -77,6 +78,7 @@ header ul li {
     line-height: 20px;
 }
 
+.hero.post .comments,
 #content section .col ul li,
 #content section .col ol li,
 .page-template-tertiary-php #content h3,
@@ -91,6 +93,8 @@ ol li {
 }
 
 
+#sidebar ul li,
+#sidebar p,
 #content.landing-form .left-content p,
 #content.landing-form .left-content ul li,
 #content.landing-form .left-content ol li,
@@ -108,7 +112,6 @@ ol li {
     font-size: 33px;
 }
 
-.post h2,
 .landing-form.orange-blue .left-content h3,
 .landing-form .left-content h2,
 .quote-info h3,
@@ -121,6 +124,7 @@ blockquote,
     padding-bottom: 30px;
 }
 
+.side.post h2,
 #content.landing-form.orange-blue .left-content p,
 #content.landing-form.orange-blue .left-content ul li,
 .landing-form h3 {
@@ -128,9 +132,15 @@ blockquote,
     line-height: 22px;
 }
 
+#main > h2:first-child,
 .landing-form #banner .text-block p {
     font-size: 25px;
     line-height: 28px;
+}
+
+.post h2 {
+    font-size: 30px;
+    line-height: 33px;
 }
 
 .white-bg.text-block h2,
@@ -146,6 +156,7 @@ footer .text-block p,
     padding-bottom: 20px;
 }
 
+.post h2,
 #content.landing-form .left-content ul li,
 #content.landing-form section .form ul li,
 .landing-form .left-content h2,
@@ -251,21 +262,11 @@ form input[type=submit],
     display: none;
 }
 
-.solar-benefits #site-header  #primary-nav .nav-solar-benefits {
-    background: transparent url(/wp-content/themes/baker/images/subnav-solar-benefits.png) center bottom no-repeat;
+.blog #site-header  #primary-nav .nav-blog {
+    background: transparent url(../images/subnav-blog.png) center bottom no-repeat;
+    background-size: 49px auto;
 }
 
-.about-baker #site-header  #primary-nav .nav-about-baker {
-    background: transparent url(/wp-content/themes/baker/images/subnav-about-baker.png) center bottom no-repeat;
-}
-
-.residential #site-header  #primary-nav .nav-residential-solutions {
-    background: transparent url(/wp-content/themes/baker/images/subnav-residential.png) center bottom no-repeat;
-}
-
-.commercial #site-header  #primary-nav .nav-commercial-solutions {
-    background: transparent url(/wp-content/themes/baker/images/subnav-commercial.png) center bottom no-repeat;
-}
 
 #site-header h1,
 #site-header ul li,
@@ -347,12 +348,12 @@ form input[type=submit],
 }
 
 #site-header #primary-nav #contact-us-details {
-    display: none;
+    display: block;
     position: absolute;
-    right: 145px;
+    right: 0px;
     top: 0;
     height: 40px;
-    width: 460px;
+    width: 480px;
     padding: 0;
     text-align: center;
     background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmMmYyZjIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
@@ -673,6 +674,7 @@ footer .logo.sunpower {
     padding-bottom: 20px;
 }
 
+#mainsite-links .intro,
 .cards .col {
     padding-bottom: 40px;
 }
@@ -834,6 +836,7 @@ section.short {
     background-size: 100% auto;
 }
 
+.intro .large-col-4,
 .accordion .large-col-4,
 .accordion .large-col-5,
 .footer-links .col:first-child,
@@ -871,6 +874,8 @@ section.short {
 .home #block-05 .accordion .col.large-col-3.right-form {
     width: 49.51923076923%;
 }
+
+.blog .large-col-3,
 .landing-form .large-col-3 {
     width: 48%;
 }
@@ -879,6 +884,7 @@ section.short {
     width: 62.5%;
 }
 
+.blog .large-col-4,
 .landing-form .large-col-4 {
     width: 64.4%;
 }
