@@ -1,50 +1,7 @@
 /* large screen css */
 
-.about-baker #content.secondary-template #block-03 h2,
-.about-baker #content.secondary-template #block-05 h2,
-.about-baker #content.secondary-template #block-03 p,
-.about-baker #content.secondary-template #block-05 p,
-.about-baker #content.secondary-template #block-03 h3,
-.about-baker #content.secondary-template #block-05 h3,
-.about-baker #content.secondary-template #block-03 ul li,
-.about-baker #content.secondary-template #block-05 ul li,
-.about-baker #content.secondary-template #block-03 ol li,
-.about-baker #content.secondary-template #block-05 ol li,
-.about-baker #content.secondary-template #block-03 dl,
-.about-baker #content.secondary-template #block-05 dl,
-#subnav a,
-#subnav a:visited,
-#subnav a:hover,
-#subnav a:active,
-#site-header #primary-nav #contact-us > span {
-    color: #fff;
-}
-
-
-
-#subnav a:hover {
-    color: rgba(0, 0, 0, 0.5);
-}
 
 /*typography */
-
-#content.landing-form .left-content p.jumbo  {
-    font-size: 150px;
-    line-height: 130px;
-}
-
-#content.landing-form .left-content p.jumbo .dollar {
-    font-size: 45px;
-    vertical-align: top;
-    line-height: 45px;
-}
-
-.comments,
-#main .post .post-meta,
-.side.post .post-meta {
-    font-size: 14px;
-    line-height: 18px;
-}
 
 #content h1 {
     font-size: 65px;
@@ -52,20 +9,19 @@
     padding-bottom: 24px;
 }
 
-.hero.post h2,
+.single #content h1 {
+    padding-bottom: 12px;
+}
+
 #mainsite-links h2 {
     font-size: 52px;
-    line-height: 48px;
-}
-#mainsite-links h2 {    
+    line-height: 48px;   
     padding-bottom: 24px;
 }
 
 .comments,
 .cta,
 form input[type=submit],
-#content.landing-form .left-content .intro-box .halves ul li,
-#content.landing-form .left-content .intro-box .halves p.halves:last-child,
 form p,
 .privacy,
 label,
@@ -79,9 +35,6 @@ header ul li {
 }
 
 .hero.post .comments,
-#content section .col ul li,
-#content section .col ol li,
-.page-template-tertiary-php #content h3,
 h4,
 dl dt,
 dl dd,
@@ -94,11 +47,7 @@ ol li {
 
 
 #sidebar ul li,
-#sidebar p,
-#content.landing-form .left-content p,
-#content.landing-form .left-content ul li,
-#content.landing-form .left-content ol li,
-.videos p {
+#sidebar p {
     font-size: 17px;
     line-height: 24px;
 }
@@ -112,11 +61,7 @@ ol li {
     font-size: 33px;
 }
 
-.landing-form.orange-blue .left-content h3,
-.landing-form .left-content h2,
-.quote-info h3,
 blockquote,
-.home #content .text-block p,
 .cards p,
 #mainsite-links .card p {
     font-size: 24px;
@@ -124,45 +69,18 @@ blockquote,
     padding-bottom: 30px;
 }
 
-.side.post h2,
-#content.landing-form.orange-blue .left-content p,
-#content.landing-form.orange-blue .left-content ul li,
-.landing-form h3 {
-    font-size: 20px;
-    line-height: 22px;
-}
 
-#main > h2:first-child,
-.landing-form #banner .text-block p {
+#main > h2:first-child {
     font-size: 25px;
     line-height: 28px;
 }
 
-.post h2 {
-    font-size: 30px;
-    line-height: 33px;
-}
-
-.white-bg.text-block h2,
-.home .text-block h2 {
-}
-
-#content section .col ul li,
-#content section .col ol li,
 .text-block.white-bg p,
 footer .text-block p,
-.accordion p,
 .home #content .text-block p {
     padding-bottom: 20px;
 }
 
-.post h2,
-#content.landing-form .left-content ul li,
-#content.landing-form section .form ul li,
-.landing-form .left-content h2,
-.left-content p,
-.left-content ul,
-.page-template-tertiary-php #content h3,
 .text-block p {
     padding-bottom: 10px;
 }
@@ -176,21 +94,76 @@ footer p,
     line-height: 24px;
 }
 
-.video-gallery h2 {
-    margin-bottom: 20px;
+/* hero post */
+
+
+.blog .hero.post h2 {
+    font-size: 42px;
+    line-height: 45px;
 }
 
-.landing-form.orange-blue h2 span:first-child {
-    font-size: 40px;
-    padding-bottom: 10px;
+.blog .hero.post .post-author {
+    padding-bottom: 0;
+    font-size: 25px;
+    line-height: 35px;
 }
 
-#content.landing-form .left-content .halves ul.halves:last-child {
-    padding-top: 20px;
+.blog .hero.post .post-date {
+    font-size: 18px;
+    line-height: 25px;
 }
 
-#content.landing-form .left-content .halves p.halves:last-child {
-    padding-top: 45px;
+
+/* side posts in featured section */
+
+.side.post h2 {
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.blog .side.post .post-author {
+    padding-bottom: 0;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.blog .side.post .post-date {
+    font-size: 16px;
+}
+
+
+
+/* posts below featured area */
+
+
+.blog #main .post h2 {
+    font-size: 22px;
+    line-height: 25px;
+    padding-bottom: 15px;
+}
+
+.blog #main .post .post-author {
+    padding-bottom: 0;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.blog #main .post .post-date {
+    font-size: 16px;
+}
+
+
+
+/* comments */
+
+#main .post {
+    position: relative;
+}
+
+#main .post .comments {
+    position: absolute;
+    bottom: 20px;
+    left: 51.846153846154%;
 }
 
 
@@ -299,25 +272,6 @@ form input[type=submit],
 
 #site-header .nav-email {
     display: none !important;
-}
-
-#site-header #contact-us {
-    position: absolute;
-    top: 0px;
-    right: 0;
-    height: auto;
-    width: 143px;
-    text-align: center;
-    line-height: 40px;
-}
-
-#site-header #contact-us span {
-    display: block;
-    height: 40px;
-}
-
-#site-header #contact-us > span {
-    cursor: pointer;
 }
 
 #site-header h1 {
@@ -432,36 +386,12 @@ footer .logo.sunpower {
     background-clip: padding-box !important;
 }
 
-.flex-direction-nav {
-    margin: 0 auto;
-}
-
-.flex-direction-nav,
 .container {
-    /*max-width: 1040px;*/
-    /*max-width: 1010px;*/
     max-width: 1000px;
 }
 
 #site-footer-bottom {
     padding: 40px 0 60px;
-}
-
-.page-template-tertiary-php #block-01,
-#content > section .container {
-    padding: 40px 0;
-}
-
-#content > section .flexslider .container {
-    padding: 0;
-}
-
-#content > section.expanded .container {
-    padding-bottom: 120px;
-}
-
-.page-template-tertiary-php #block-01 {
-    height: auto;
 }
 
 #site-header {
@@ -473,34 +403,6 @@ footer .logo.sunpower {
     z-index: 900;
 }
 
-.circle {
-    position: absolute;
-    top: 0;
-    max-width: 700px;
-    max-height: 530px;
-    right: -290px;
-    z-index: -1;
-}
-
-.circle.transparent {
-    max-width: 1400px;
-    max-height: 930px;
-    right: -600px;
-}
-
-.circle.orange-circles {
-    max-width: 850px;
-    max-height: 570px;
-    right: -170px;
-}
-
-
-.landing-form .accordion {
-    padding-top: 20px;
-}
-
-.tertiary-columns .col,
-.accordion .col,
 .cta,
 .cta.link a,
 .text-block {
@@ -623,49 +525,9 @@ footer .logo.sunpower {
 }
 
 
-
-.solar-benefits .intro .text-block,
-.tertiary-columns .col:first-child,
-.accordion .col:first-child,
-.text-block.blog {
-    padding-right: 0;
-}
-
-.tertiary-columns .col:last-child,
-.accordion div .col:last-child {
-    padding-left: 0;
-}
-
-.tertiary-columns .col.center,
-.accordion .col.center {
-    padding-left: 0;
-    padding-right: 0;
-}
-
-#content.tertiary-template h2 + p {
-    padding-bottom: 30px;
-}
-.tertiary-columns {
-    padding-top: 50px;
-}
-
-
 .cta.left {
     float: left;
     margin: 0 20px 0 -30px;
-}
-
-.accordion .col.large-col-4 {
-    padding-top: 20px;
-    padding-right: 80px;
-}
-
-.home #block-05 .accordion .col.large-col-3.right-form {
-    padding: 0;
-}
-
-.text-block.blog {
-    padding: 15px 0 0 0;
 }
 
 .cta,
@@ -692,153 +554,8 @@ footer .logo.sunpower {
     padding-top: 160px;
 }
 
-#banner {
-    clear: both;
-    float: none;
-    width: 100%;
-    margin-top: 190px;
-    height: 316px;
-    position: relative;
-}
-
-.landing-form #banner {
-    margin-top: 130px;
-    padding: 20px 0;
-    height: 389px;
-}
-
-.landing-form.orange-blue #banner {
-    height: 439px;
-}
-
-.landing-form .form h2 {
-    padding: 10px 40px;
-}
-
-.landing-form.orange-blue .form h2 {
-    margin-top: -115px;
-    padding: 20px 40px;
-}
-
-.video-gallery #banner .container,
-.video-gallery #banner #banner-video,
-.video-gallery #banner {
-    height: 632px;
-}
-
-.video-gallery #banner #banner-video {
-    background: transparent url(/wp-content/themes/baker/images/loading.gif) center center no-repeat;
-}
-
-.video-gallery #banner #banner-video,
-.video-gallery #banner #banner-video-dimmer {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-}
-
-.video-gallery #banner #banner-video-dimmer {
-    background: rgba(0,0,0,0.5);
-    display: none;
-}
-
-.video-gallery #content .container .col:nth-child(1),
-.video-gallery #content .container .col:nth-child(4),
-.video-gallery #content .container .col:nth-child(7) {
-    margin-left: 0;
-    clear: both;
-}  
-
-.video-gallery #content .container .col {
-    margin-bottom: 40px;
-    position: relative;
-} 
-
-#content.secondary-template > section > .container {
-    min-height: 395px;
-}
-
-section.x-large {
-    min-height: 770px;
-}
-
-section.large.subpage {
-    min-height: 580px;
-}
-
-section.large {
-    min-height: 640px;
-}
-
-section.medium {
-    min-height: 600px;
-}
-
-section.short {
-    min-height: 385px;
-}
-
-
-.home #block-01 .col {
-    margin-top: 130px;
-}
-
-.home #block-03 .col {
-    margin-top: 30px;
-}
-
-.home #block-04 .col {
-    margin-top: 10px;
-}
-
-.home #block-05 .col {
-    margin-top: 10px;
-}
-
-.home #block-06 .col {
-    margin-top: 70px;
-}
-
-.secondary-template #block-01 .col {
-    margin-top: 50px;
-}
-
-/*.solar-benefits #block-05 .col.intro,
-.solar-benefits #block-02 .col.intro,
-.solar-benefits #block-03 .col.intro {
-    margin-top: 4px;
-    margin-bottom: 4px;
-}
-
-.solar-benefits #block-04 .col.intro {
-    margin-top: 28px;
-    margin-bottom: 28px;
-}
-
-.solar-benefits #block-06 .col.intro {
-    margin-top: 18px;
-    margin-bottom: 18px;
-}*/
-
-.blur-wrap {
-    position: absolute;
-    width: 900px;
-    height: 100%;
-    top: 0;
-    left: 50%;
-    margin-left: -750px;
-}
-
-.solar-benefits #block-05 .blur-wrap {
-    background: transparent url(/wp-content/themes/baker/images/yellow-orange-blur.png) 25% top no-repeat;
-    background-size: 100% auto;
-}
 
 .intro .large-col-4,
-.accordion .large-col-4,
-.accordion .large-col-5,
 .footer-links .col:first-child,
 .container .col:first-child {
     margin-left: 0;
@@ -875,8 +592,7 @@ section.short {
     width: 49.51923076923%;
 }
 
-.blog .large-col-3,
-.landing-form .large-col-3 {
+.blog .large-col-3 {
     width: 48%;
 }
 
@@ -884,8 +600,7 @@ section.short {
     width: 62.5%;
 }
 
-.blog .large-col-4,
-.landing-form .large-col-4 {
+.blog .large-col-4 {
     width: 64.4%;
 }
 
@@ -923,6 +638,103 @@ section.short {
     clear: both;
     float: none;
 }
+
+
+#main .post,
+.featured .side.post {
+    margin-bottom: 30px;
+}
+
+#main > h2:first-child {
+    margin: 0 0 20px 0;
+    border-bottom: 1px solid #ddd;          
+    padding: 0 0 19px 0;
+}
+
+
+#main {
+    padding-top: 40px;
+}
+
+#main .post {
+    width: 100%;
+    clear: both;
+    margin: 0 0 20px 0;
+    border-bottom: 1px solid #ddd;
+    padding: 0 0 19px 0;
+    float: left;
+}
+
+.pagination {
+    clear: both;
+    padding: 12px 0 40px;
+}
+
+#mainsite-links .cards .one {
+    background: transparent url(../images/footer-client-reviews.jpg) left top no-repeat;
+}
+
+#mainsite-links .cards .two {
+    background: transparent url(../images/footer-baker-way.jpg) left top no-repeat;
+}
+
+#mainsite-links .cards .three {
+    background: transparent url(../images/footer-get-a-quote.jpg) left top no-repeat;
+}
+
+#mainsite-links .cards .one,
+#mainsite-links .cards .two,
+#mainsite-links .cards .three {
+    background-size: auto 167px;
+}
+
+
+
+.twitter.button.cta,
+.rss.button.cta {
+    background-image: none !important;
+    padding-right: 30px !important;
+    margin-bottom: 30px;
+}
+
+.blog.single #main {
+    padding-bottom: 60px;
+}
+        .share h3,
+        .share .social {
+            float: left;
+            padding-bottom: 0;
+        }
+        
+
+        #main .share .social {
+            margin: -5px 0 0 3.8%;
+        }
+
+        .blog .post .share,
+        .blog .post .post-content,
+        .blog .post .author-bio {
+            float: left;
+            width: 100%;
+            clear: both;
+            padding-bottom: 39px;
+            border-bottom: 1px solid #e7e7e7;
+            margin-bottom: 40px;
+        }
+
+        .blog .post .author-bio {
+            padding-top: 39px;
+            border-top: 1px solid #e7e7e7;
+        }
+
+
+        .next-prev {
+            width: 100%;
+            clear: both;
+            float: left;
+            margin-bottom: 40px;
+        }
+
 
 @media all and (max-width: 1300px) {
 

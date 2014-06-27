@@ -14,16 +14,6 @@
     color: #aaaaaa;
 }
 
-
-.home #content #block-03.blue h2,
-.home #content #block-03.blue h3 {
-    color: #1579a7;
-}
-
-.home #content #block-03.blue p {
-    color: #5f6062;
-}
-
 #site-header #primary-nav #contact-us-details li.nav-phone {
     background-color: #fda729;
 }
@@ -48,36 +38,16 @@
     line-height: 35px;
 }
 
-
-h2 {
-    font-size: 36px;
-    line-height: 36px;
+#mainsite-links h2,
+#content h1 {
+    font-size: 40px;
+    line-height: 45px;
 }
 
-#block-01 h2 {
-    padding-bottom: 0;
-}
-
-.home #block-02 .col:first-child .text-block {
-    border-bottom: 1px dotted #ccc;
-}
-
-.home #block-01 .text-block,
-.home #block-06 .text-block {
-    padding-top: 60px;
-}
-.home #block-02 {
-    padding-bottom: 70px;
-}
-
-.home #block-02 .cta {
-    position: absolute;
-    bottom: -70px;
-    left: 20px;
-}
-
-.home #block-02 .col:last-child {
-    display: none;
+.blog .post h2 {
+    font-size: 28px;
+    line-height: 30px;
+    font-family: "GillSansMTStd-Light";
 }
 
 .cards h2 {
@@ -226,7 +196,7 @@ position: absolute;
 
 
 #content .expanded .cta span {
-background: transparent url(../baker/images/dropdown-double-arrow.png) center 4px no-repeat;
+background: transparent url(../images/dropdown-double-arrow.png) center 4px no-repeat;
 background-size: contain !important;
 }
 
@@ -291,7 +261,7 @@ footer .cta span {
     position: absolute;
     top: 20px;
     right: 20px;
-    background: #f57421 url(../baker/images/dropdown-arrow.png) center center no-repeat;
+    background: #f57421 url(../images/dropdown-arrow.png) center center no-repeat;
     background-size: 22px 15px;
     width: 50px;
     height: 52px;
@@ -324,30 +294,17 @@ footer .cta span {
 }
 
 #primary-nav .sectionless .nav-home,
-#subnav ul li:first-child,
-#subnav.block-01 .block-01,
-#subnav.block-02 .block-02,
-#subnav.block-03 .block-03,
-#subnav.block-04 .block-04,
-#subnav.block-05 .block-05,
 .home #site-header  #primary-nav .nav-home,
-.solar-benefits #site-header #primary-nav .nav-solar-benefits,
-.about-baker #site-header #primary-nav .nav-about-baker,
-.residential #site-header #primary-nav .nav-residential-solutions,
-.commercial #site-header #primary-nav .nav-commercial-solutions,
+.blog #site-header #primary-nav .nav-blog,
 .contact-us #site-header #primary-nav .nav-contact-us {
     display: block;
     border-bottom-left-radius: 30px;
     overflow: hidden;
 }
 
-#subnav.block-01 .closed .block-01,
-#subnav.block-02 .closed .block-02,
-#subnav.block-03 .closed .block-03,
-#subnav.block-04 .closed .block-04,
-#subnav.block-05 .closed .block-05,
+
 .home #site-header #primary-nav .closed .nav-home,
-.solar-benefits #site-header #primary-nav .closed .nav-solar-benefits,
+.blog #site-header #primary-nav .closed .nav-blog,
 .about-baker #site-header #primary-nav .closed .nav-about-baker,
 .residential #site-header #primary-nav .closed .nav-residential-solutions,
 .commercial #site-header #primary-nav .closed .nav-commercial-solutions,
@@ -378,13 +335,15 @@ footer .cta span {
 
 #site-header .site-title,
 #site-header .site-title a {
-    float: left;
-    width: 120px;
-    height: 45px;
+   margin: 0 auto;
+    width: 160px;
+    height: 60px;
 }
 
+
+
 .site-title a {
-    background: transparent url(/wp-content/themes/baker/images/baker-electric-solar-logo.png) center center no-repeat;
+    background: transparent url(../images/baker-electric-solar-logo.png) center center no-repeat;
     background-size: 100% auto;
 }
 
@@ -427,42 +386,41 @@ footer .cta span {
 
 /* footer */
 
-.hidden-video .container,
-#site-footer-bottom .container,
-#site-footer-top .container {
+#site-footer-bottom .container {
     padding: 0 20px;
 }
 
-#site-footer-top .small-full {
+#mainsite-links .small-full {
     padding: 0;
 }
 
-#site-footer-top .footer-links.small-full .col {
+#mainsite-links .footer-links.small-full .col {
     width: 100%;
     clear: both;
     padding-bottom: 20px;
 }
 
-#site-footer-top .cards .col {
+#mainsite-links .cards .col {
     border-radius: 15px;
     margin-bottom: 20px;
     padding-left: 100px;
 }
 
-#site-footer-top .text-block {
+#mainsite-links .text-block {
     padding: 20px;
 }
 
-#site-footer-top .text-block p {
+#mainsite-links .text-block p {
     padding: 0;
 }
 
-#site-footer-top .text-block {
+#mainsite-links .text-block {
     border-top-left-radius: 0;
 }
 
-#site-footer-top .cta {
+#mainsite-links .cta {
     border-bottom-left-radius: 0;
+    background-image: none !important;
 }
 
 footer .site-title, 
@@ -506,21 +464,21 @@ footer .logo {
 
 footer .logo.sunpower {
     margin: 20px;
-    background: transparent url(/wp-content/themes/baker/images/sunpower-elite-dealer-retina.png) center center no-repeat;
+    background: transparent url(../images/sunpower-elite-dealer-retina.png) center center no-repeat;
 }
 
 footer .logo.angies {
-    background: transparent url(/wp-content/themes/baker/images/angies-list-award-retina.jpg) center center no-repeat;
+    background: transparent url(../images/angies-list-award-retina.jpg) center center no-repeat;
 }
 
 footer .logo.bbb {
-    background: transparent url(/wp-content/themes/baker/images/bbb-logo-retina.jpg) center center no-repeat;
+    background: transparent url(../images/bbb-logo-retina.jpg) center center no-repeat;
 }
 
 #site-footer-bottom .logo.baker {
     display: inline-block;
     margin: 0;
-    background: transparent url(/wp-content/themes/baker/images/baker-electric-inc-logo-retina.png) center center no-repeat;
+    background: transparent url(../images/baker-electric-inc-logo-retina.png) center center no-repeat;
 }
 
 footer .logo.sunpower,
@@ -542,7 +500,7 @@ footer .logo.baker img {
 }
 
 #site-footer-bottom .social a {
-    background-image: url(/wp-content/themes/baker/images/social-icons-retina.png);
+    background-image: url(../images/social-icons-retina.png);
     background-size: 184px auto;
 }
 
@@ -602,7 +560,7 @@ footer .logo.baker img {
 .cards .cta,
 #content .cta.link a,
 #content .cta {
-    background-image: url(/wp-content/themes/baker/images/button-double-arrow.png);
+    background-image: url(../images/button-double-arrow.png);
     background-repeat: no-repeat;
     background-size: auto 10px;
     padding: 15px 40px 15px 15px;
@@ -610,7 +568,7 @@ footer .logo.baker img {
 }
 
 #content .expanded .cta {
-    background-image: url(/wp-content/themes/baker/images/button-double-arrow-down.png);
+    background-image: url(../images/button-double-arrow-down.png);
     background-position: right center;
     background-repeat: no-repeat;
     background-size: auto 10px; 
@@ -624,7 +582,9 @@ footer .cards .cta {
     padding: 0;
 }
 
-#content .cta span {
+#content #main .cta span,
+#content #sidebar .cta span,
+#content .featured .cta span {
     display: none;
 }
 
@@ -794,23 +754,11 @@ footer .cards .cta {
     padding: 20px 0;
 }
 
-.home #block-04 .text-block {
-    padding-top: 0;
-}
-
-.tertiary-columns {
-    padding-top: 50px;
-}
-
 .cta.left {
     float: left;
     margin: 0 20px 0 0;
 }
 
-.accordion .col.large-col-4 {
-    padding-top: 20px;
-    padding-right: 80px;
-}
 
 .text-block.blog {
 }
@@ -856,68 +804,168 @@ footer .cards .cta {
 .small-full {
     margin-left: 0;
     width: 100%;
-    padding: 0 20px;
 }
 
-#content .small-full {
-    margin-top: 200px;
-    background: #fff;    
+#content .featured .post {
+    margin-top: 40px;
 }
 
-#content.landing-form #banner .small-full,
-.secondary-template #block-02 .small-full,
-.secondary-template #block-04 .small-full,
-.secondary-template #block-06 .small-full {
-    margin-top: 200px;
+#content #main .post {
+    padding-top: 40px;
+    clear: both;
+    float: none;
+    position: relative;
 }
 
-
-.home #content #block-04 .small-full {
-    margin-top: 220px;
-}
-
-.home #content #block-01,
-.home #content #block-03,
- #content.secondary-template section {
-    border-bottom: 1px solid #ccc;
-}
-
-#content.landing-form .small-full {
+#content .hero.small-full.post {
     margin-top: 20px;
 }
 
-#content.landing-form #banner .small-full {
-    padding: 0;
+.text-block.white-bg {
+    padding: 30px 30px 20px 30px;
 }
 
-#content.landing-form #banner .text-block {
-    padding: 20px;
-    border-bottom: 1px solid #ccc;
+#mainsite-links,
+.featured,
+#main {
+    padding: 40px 40px 0 40px;
+}
+
+#mainsite-links,
+.featured,
+#main {
+    padding-top: 40px;
+}
+
+#mainsite-links .intro p,
+#mainsite-links {
+    padding-bottom: 20px;
+}
+
+#content #mainsite-links .cta {
+    margin-bottom: 0;
+}
+
+#mainsite-links .cards .one {
+    background: transparent url(../images/footer-client-reviews.jpg) left top no-repeat;
+    background-position: -65px 0;
+}
+
+#mainsite-links .cards .two {
+    background: transparent url(../images/footer-baker-way.jpg) left top no-repeat;
+    background-position: -107px 0;
+}
+
+#mainsite-links .cards .three {
+    background: transparent url(../images/footer-get-a-quote.jpg) left top no-repeat;
+    background-position: -167px 0;
+}
+
+#mainsite-links .cards .one,
+#mainsite-links .cards .two,
+#mainsite-links .cards .three {
+    background-size: auto 100%;
+}
+
+#main .post .small-full {
+    width: 100%;
+    float: none;
+}
+
+
+.blog .featured .post {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.blog .post .post-date {
+    font-size: 16px;
+}
+
+.blog #main .post img {
+    margin-bottom: 20px;
+}
+
+.hero.post .text-block p:last-child {
+    margin-top: 20px;
 }
 
 .form ul li {
     padding-bottom: 10px;
 }
 
-
-#content.landing-form .col .form h2 {
-    padding: 0 0 20px 0;
-    background-color: transparent;
+#main .post .comments {
+    position: absolute;
+    right: 0;
+    bottom: 0px;
 }
 
-.video-gallery #content .small-full,
-#content .tertiary-columns .small-full,
-#content .accordion .small-full,
-.home #content #block-02 .small-full {
-    margin-top: 0;
+.pagination {
+    float: none;
+    padding: 40px 0;
 }
 
-.video-gallery #content .small-full {
+
+.twitter.button.cta,
+.rss.button.cta {
+    background-image: none !important;
+    padding-right: 15px !important;
     margin-bottom: 30px;
 }
 
-@media screen and (max-width: 400px) {
-    #content .small-full {
-        margin-top: 150px;
-    }
+
+.blog .post .share,
+.blog .post .post-content,
+.blog .post .author-bio {
+    float: left;
+    width: 100%;
+    clear: both;
+    padding-bottom: 19px;
+    border-bottom: 1px solid #e7e7e7;
+    margin-bottom: 20px;
+}
+
+.blog .post .author-bio {
+    padding-top: 19px;
+    border-top: 1px solid #e7e7e7;
+}
+
+#main > h2:first-child {
+    font-size: 20px;
+line-height: 25px;
+padding-bottom: 19px;
+border-bottom: 1px solid #e7e7e7;
+margin-bottom: 20px;
+}
+
+        #main .share h3 {
+            padding-bottom: 10px;
+        }
+
+.next-prev {
+    width: 100%;
+    clear: both;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.blog.single #main {
+    padding-bottom: 60px;
+}
+
+.bullet {
+    display: none;
+}
+
+.categories {
+    display: block;
+}
+
+.single.blog .featured {
+    background-position: center top;
+    background-size: auto 120%;
+}
+
+.blog.landing #content #main h2 + .post {
+    padding-top: 0px;
 }
