@@ -914,22 +914,6 @@ footer .cards .cta {
 }
 
 
-.blog .post .share,
-.blog .post .post-content,
-.blog .post .author-bio {
-    float: left;
-    width: 100%;
-    clear: both;
-    padding-bottom: 19px;
-    border-bottom: 1px solid #e7e7e7;
-    margin-bottom: 20px;
-}
-
-.blog .post .author-bio {
-    padding-top: 19px;
-    border-top: 1px solid #e7e7e7;
-}
-
 #main > h2:first-child {
     font-size: 20px;
 line-height: 25px;
@@ -938,9 +922,13 @@ border-bottom: 1px solid #e7e7e7;
 margin-bottom: 20px;
 }
 
-        #main .share h3 {
-            padding-bottom: 10px;
-        }
+#main .share h3 {
+    padding-bottom: 10px;
+}
+
+.related-posts .post-img {
+    min-height: 8.5em;
+}
 
 .next-prev {
     width: 100%;
@@ -962,10 +950,115 @@ margin-bottom: 20px;
 }
 
 .single.blog .featured {
+    padding-top: 0px;
     background-position: center top;
     background-size: auto 120%;
 }
 
+.comment-header {
+    margin-bottom: -2px;
+}
+
+.comment-header .cta.button {
+    margin-bottom: 0 !important;
+}
+
+.blog .post .comment-header,
+.blog .post .share,
+.blog .post .post-content,
+.blog .post .author-bio {
+    float: left;
+    width: 100%;
+    clear: both;
+    padding-bottom: 19px;
+    border-bottom: 1px solid #e7e7e7;
+    margin-bottom: 20px;
+}
+
+
+.container.main-content-container {
+    padding: 0;
+}
 .blog.landing #content #main h2 + .post {
     padding-top: 0px;
+}
+
+.related-posts > .col {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.related-posts .post-img {
+    min-height: 7em;
+}
+
+.related-posts,
+.related-posts > .col:last-child {
+    margin-bottom: 0;
+}
+
+
+        #sidebar h2 span.cta,
+        .blog #content .expandable.comment-header .cta {
+            margin-top: -2px;           
+        }
+
+        #sidebar ul {
+    display: none;
+}
+
+#hero-overlay {
+    display: none;
+}
+
+.single.blog #content .featured,
+.single.blog #content .featured .container:first-child {
+    padding: 0;
+}
+
+.container.text-container {
+    padding: 0 40px 40px 40px;
+}
+#hero-image {
+    width: 100%;
+    height: 15em;
+    position: relative;
+    margin: 0;
+    left: 0;
+}
+
+#hero-image img {
+    display: none;
+}
+
+.featured .post-author {
+    display: block;
+    float: left;
+    margin: 0 15px 0 0;
+    font-size: 25px !important;
+    line-height: 25px !important;
+}
+
+.bull {
+    display: none;
+}
+
+.featured .post-date {
+    float: none;
+    clear: both;
+    margin: 0;
+    font-size: 16px !important;
+    line-height: 20px !important;
+}
+
+#sidebar .widget.widget_woodojo_tweets {
+    margin-bottom: 0;
+}
+
+
+.blog #sidebar h2 {
+    padding-bottom: 0px;
+    border-bottom: 0;
 }

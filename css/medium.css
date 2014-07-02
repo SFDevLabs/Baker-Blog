@@ -56,8 +56,8 @@ ol li {
 
 
 .blog.single .featured p.post-author {
-    font-size: 24px;
-    line-height: 28px;
+    font-size: 30px;
+    line-height: 30px;
 }
 
 .tertiary-columns .col p,
@@ -121,6 +121,8 @@ footer .text-block p,
     margin: 0 0 20px 0;
     border-bottom: 1px solid #ddd;          
     padding: 0 0 19px 0;
+    font-size: 25px;
+    line-height: 28px;
 }
 
 
@@ -149,6 +151,19 @@ footer .text-block p,
     margin-bottom: 30px;
 }
 
+.blog #sidebar h2 {
+    border-bottom: 0;
+}
+
+#sidebar h2 span.cta,
+.blog #content .expandable.comment-header .cta {
+    margin-top: -2px;           
+}
+
+#sidebar ul,
+#sidebar ul + div {
+    display: none;
+}
 
 
 /* hero post */
@@ -773,40 +788,7 @@ form input[type=submit],
     padding: 48px 0;
 }
 
-.secondary-template section#block-01 {
-    padding-top: 150px;
-}
 
-section#block-01 .flexslider .container, 
-section#block-06 .flexslider .container {
-    padding: 0 60px;
-}
-
-.home section#block-01,
-section#block-01 .slides li {
-    height: 690px;
-}
-
-.secondary-template #block-01 {
-    height: 600px;
-}
-
-#content.secondary-template > section > .container {
-    min-height: 250px;
-}
-
-.home section#block-06,
-.home section#block-06 .slides li,
-.home section#block-06 .hidden-video,
-.home section#block-06 .hidden-video iframe {
-    height: 670px;
-}
-
-.home section#block-01,
-.home section#block-06 {
-    padding-top: 0;
-    padding-bottom: 0;
-}
 
 .blog .featured {
     padding-top: 160px;
@@ -825,22 +807,6 @@ section#block-01 .slides li {
 .col.medium-clear {
     clear: both;
     margin-left: 0;
-}
-
-.home #block-01 .col {
-    margin-top: 130px;
-}
-
-.home #content #block-02 .medium-full .text-block p {
-    padding-bottom: 10px;
-}
-
-.home #block-06 .col {
-    margin-top: 40px;
-}
-
-.secondary-template #block-01 .col {
-    margin-top: 100px;
 }
 
 .container .col:first-child {
@@ -876,6 +842,15 @@ section#block-01 .slides li {
     width: 83.3333333333%;
 }
 
+
+.blog .medium-col-3 {
+    width: 48%;
+}
+
+.blog .medium-col-4 {
+    width: 64.4%;
+}
+
 .medium-fourths .col {
     width: 25%;
     padding-left: 2.884615384615%;
@@ -883,79 +858,171 @@ section#block-01 .slides li {
 }
 
 
+.blog.single #main,
+.blog.single #sidebar,
 .medium-full {
     margin-left: 0;
     width: 100%;
     clear: both;
     float: none;
-    padding-bottom: 10px;
 }
 
 
 .blog.single #main {
     padding-bottom: 60px;
 }
-        .share h3 {
-            padding-bottom: 10px;
-        }
-        
 
-        .blog .post .share,
-        .blog .post .post-content,
-        .blog .post .author-bio {
-            float: left;
-            width: 100%;
-            clear: both;
-            padding-bottom: 39px;
-            border-bottom: 1px solid #e7e7e7;
-            margin-bottom: 40px;
-        }
+.share h3 {
+    padding-bottom: 10px;
+}
 
-        .blog .post .author-bio {
-            padding-top: 39px;
-            border-top: 1px solid #e7e7e7;
-        }
+.blog .post .comment-header,
+.blog .post .share,
+.blog .post .post-content,
+.blog .post .author-bio {
+    float: left;
+    width: 100%;
+    clear: both;
+    padding-bottom: 39px;
+    border-bottom: 1px solid #e7e7e7;
+    margin-bottom: 40px;
+}
 
 
-        .next-prev {
-            width: 100%;
-            clear: both;
-            float: left;
-            margin-bottom: 40px;
-        }
+.container.main-content-container {
+    padding: 0;
+}
 
-@media screen and (max-width: 735px) { 
-    .home #content #block-01,
-    .home #content #block-06 {
-        height: auto;
-        border-bottom: 1px solid #ccc;
-    } 
-    .home #content #block-06 {
-        height: 690px;
+.container.main-content-container #main,
+.container.main-content-container #sidebar {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.share h3,
+.share .social {
+    float: left;
+    padding-bottom: 0;
+}
+
+
+#main .share .social {
+    margin: -5px 0 0 3.8%;
+}
+
+.related-posts > .col,
+.related-posts .post-img {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.related-posts > .col {
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: hidden;
+}
+
+.related-posts {
+    width: 100%;
+    clear: both;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.related-posts > .col {
+    margin-bottom: 30px;
+}
+
+.related-posts .post-img {
+    min-height: 8.5em;
+}
+
+.related-posts > .col:nth-child(1),
+.related-posts > .col:nth-child(3) {
+    margin-left: 0;
+    clear: both;
+}
+
+
+.single.blog #content .featured {
+    padding-top: 120px;
+    position: relative;
+    background: #f0f0f0;
+}
+
+#hero-overlay {
+    display: none;
+}
+
+.single.blog #content .featured .container:first-child {
+    padding: 0;
+}
+
+#hero-image {
+    width: 100%;
+    height: 25em;
+    position: relative;
+    margin: 0;
+    left: 0;
+}
+
+#hero-image img {
+    display: none;
+}
+
+.single.blog .featured {
+    padding-bottom: 0;
+}
+
+.featured .container.text-container {
+
+    background: transparent url('/images/hero-bg.jpg') center center no-repeat;
+    background-size: cover;
+
+}
+
+.single.blog #content .featured h1 {
+    margin-top: 40px;
+}
+
+.featured .post-author {
+    display: block;
+    float: left;
+    margin: 0 15px 0 0;
+}
+
+.featured .post-date {
+    float: left;
+    margin: 0;
+    font-size: 24px !important;
+    line-height: 30px !important;
+}
+
+.featured .categories {
+    clear: both;
+    padding: 0px 0 40px;
+}
+
+.single.blog #content .container.main-content-container #main > h2:first-child {
+    margin-top: 0;
+}
+
+@media screen and (max-width: 850px) { 
+    .related-posts .col.post-img {
+        width: 30.769230769231%;
     }
-    .home #block-01 .text-block,
-    .home #block-06 .text-block {
-        padding-top: 0;
+    .related-posts h4.col {
+        width: 62.5%;
     }
-    .home #content #block-01 .container,
-    .home #content #block-06 .container {
-        width: 100%;
-        padding: 0;
+}
+
+@media screen and (max-width: 750px) { 
+    .related-posts .col.post-img {
+        min-height: 8.75em;
     }
-    .home #content #block-01 .small-full,
-    .home #content #block-06 .small-full {
-        padding: 70px 40px 70px 40px;
-        width: 100%;
-        margin-top: 300px;
-        background: #fff;
-    }
-    .home #content #block-01 .cta,
-    .home #content #block-06 .cta {
-        border-radius: 30px;
-        display: inline-block;
-    }
-    .slides li .play-button {
-        top: 70px;    
+    .related-posts h4.col {
+        font-size: 16px;
+        line-height: 20px;
     }
 
 }

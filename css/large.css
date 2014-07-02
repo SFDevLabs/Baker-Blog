@@ -700,66 +700,91 @@ footer .logo.sunpower {
 .blog.single #main {
     padding-bottom: 60px;
 }
-        .share h3,
-        .share .social {
-            float: left;
-            padding-bottom: 0;
-        }
-        
 
-        #main .share .social {
-            margin: -5px 0 0 3.8%;
-        }
-
-        .blog .post .share,
-        .blog .post .post-content,
-        .blog .post .author-bio {
-            float: left;
-            width: 100%;
-            clear: both;
-            padding-bottom: 39px;
-            border-bottom: 1px solid #e7e7e7;
-            margin-bottom: 40px;
-        }
-
-        .blog .post .author-bio {
-            padding-top: 39px;
-            border-top: 1px solid #e7e7e7;
-        }
-
-
-        .next-prev {
-            width: 100%;
-            clear: both;
-            float: left;
-            margin-bottom: 40px;
-        }
-
-
-@media all and (max-width: 1300px) {
-
-    #content .close-button {
-        left: -40px;
-        width: 40px;
-    }
-
-    #content .scroll-to-top {
-        width: 160px;
-        left: 40px;
-    }
-
-    .accordion .large-full {
-        padding-bottom: 20px;
-    }
-
-
+.share h3,
+.share .social {
+    float: left;
+    padding-bottom: 0;
 }
 
 
+#main .share .social {
+    margin: -5px 0 0 3.8%;
+}
+
+.blog .post .comment-header,
+.blog .post .share,
+.blog .post .post-content,
+.blog .post .author-bio {
+    float: left;
+    width: 100%;
+    clear: both;
+    padding-bottom: 39px;
+    border-bottom: 1px solid #e7e7e7;
+    margin-bottom: 40px;
+}
+
+.related-posts {
+    width: 100%;
+    clear: both;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.related-posts > .col {
+    height: 245px;
+    margin-bottom: 30px;
+}
+
+.related-posts > .col,
+.related-posts .post-img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.related-posts > .col:nth-child(1),
+.related-posts > .col:nth-child(3) {
+    margin-left: 0;
+    clear: both;
+}
+
+.related-posts .post-img {
+    width: 100%;
+    clear: both;
+    min-height: 7.5em;
+}
+
+#sidebar h2 span.cta {
+    display: none;
+}
+
+
+.blog #content .expandable.comment-header .cta {
+    margin-top: -6px;           
+}
+
+.single.blog #content .featured {
+    padding-top: 130px;
+    height: 35em;
+    position: relative;
+    background: #f0f0f0;
+    height: 40em;
+
+}
+
+#hero-image {
+position: absolute; right: -16%;
+
+}
+
+.bull {
+    display: none;
+}
+
+.single.blog #content h1 {
+margin-top: 60px;
+}
 @media all and (max-width: 1100px) {
-    #content .close-button {
-        left: 10px;
-    }
 
 
     .page-template-tertiary-php #block-01, 
