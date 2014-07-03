@@ -1,30 +1,6 @@
 /* small screen css */
 
 
-/* colors */
-
-.solar-benefits #site-header #primary-nav ul li.nav-solar-benefits a,
-.about-baker #site-header #primary-nav ul li.nav-about-baker a,
-.residential #site-header #primary-nav ul li.nav-residential-solutions a,
-.commercial #site-header #primary-nav ul li.nav-commercial-solutions a {
-    color: #5f6062;
-}
-
-#subnav a:hover {
-    color: #aaaaaa;
-}
-
-#site-header #primary-nav #contact-us-details li.nav-phone {
-    background-color: #fda729;
-}
-
-#content.landing-form .col .form h2,
-.solar-benefits #content #block-05 .accordion .col h3, 
-.solar-benefits #content #block-03 .accordion .col h3 {
-    color: #f27430;
-}
-
-
 /* typography */
 
 #content.landing-form .left-content p.jumbo  {
@@ -62,11 +38,8 @@ form ul li select,
 form ul li input,
 .form textarea,
 form input[type=submit],
-.home #content .text-block.blog p,
 .cta,
-.quote-info h3,
 blockquote,
-.page-template-tertiary-php #content h3,
 h4,
 dl dt,
 dl dd,
@@ -86,103 +59,27 @@ ol li {
     font-size: 14px;
 }
 
-footer p, 
-.footer-links h2, 
-.footer-links h3, 
-.footer-links ul li {
+footer p {
     font-size: 16px;
     line-height: 20px;
 }
 
-.intro-box ul li,
-.intro-box .halves p.halves,
 .cta {
     font-size: 14px;
     line-height: 20px;
 }
 
-.form h3,
-.landing-form .left-content p,
-.landing-form .left-content ul,
-.landing-form .left-content ol,
 .quote-info h3,
 blockquote,
-.cards p,
-#site-footer-top .card p {
+.cards p {
     padding-bottom: 10px;
 }
 
-.landing-form .form h3,
-.large-full .col h3 {
-    font-size: 24px;
-    line-height: 24px;
-}
 
-#content.tertiary-template .text-block p {
-    padding-bottom: 20px;
-}
 
 
 /* graphics */
 
-.video-gallery #banner,
-.tertiary-template #banner {
-    display: none;
-}
-
-.video-gallery #content {
-    border-top: 1px solid #ccc;
-    padding-top: 20px;
-}
-
-.small-full.form {
-    padding-bottom: 20px;
-}
-
-.tertiary-template .circle {
-    margin-top: 0;
-    border-radius: 0;
-    width: 100%;
-}
-
-#content.tertiary-template > section {
-    padding-bottom: 20px;
-}
-
-#content.tertiary-template .col {
-    margin-top: 320px;
-}
-
-.circle {
-    height: 300px;
-    width: 300px;
-    margin: -100px auto 0 auto;
-    position: relative;
-    z-index: -1;
-    border-radius: 9999px;
-}
-
-.circle.orange-circles {
-position: absolute;
-    top: 0;
-    left: 50%;
-    margin-top: 0;
-    border-radius: 0;
-    height: 200px;
-    width: 300px;
-    margin-left: -150px;
-}
-
-.circle img {
-    visibility: hidden;
-    max-width: 100%;
-}
-
-.circle.orange-circles img {
-    visibility: visible;
-    position: absolute;
-    border-bottom: 40px solid #fff;
-}
 
 .cards img {
     border-top-left-radius: 15px;
@@ -521,41 +418,6 @@ footer .logo.baker img {
 
 /* forms */
 
-.intro-box {
-    border-radius: 15px;
-    padding: 10px 20px 5px 20px;
-}
-
-.intro-box .halves {
-    width: 50%;
-    margin: 0;
-}
-
-.intro-box .halves .halves {
-    width: 40%;
-}
-
-.intro-box .halves ul.halves,
-.intro-box .halves p.halves:last-child {
-    width: 60%;
-}
-
-.intro-box .halves p.halves:last-child {
-    padding-top: 25px;
-}
-
-#form-contents.thank-you-message {
-    text-align: left;
-}
-
-.landing-form section .right-form.small-full {
-    padding: 0;
-}
-
-.small-full.right-form .form {
-    padding: 20px;
-    margin-bottom: 20px;
-}
 
 .cards .cta,
 #content .cta.link a,
@@ -592,15 +454,7 @@ footer .cards .cta {
     background-image: none;
 }
 
-.form p input[type=submit] {
-    padding: 15px 35px 15px 15px !important;
-    line-height: 21px;
-}
 
-.form h2 + .inline-form:first-child,
-.form .inline-form:first-child {
-    padding-top: 20px;
-}
 
 #content form input[type=submit] {
     background-image: url(/wp-content/themes/baker/images/button-double-arrow-tablet.png);
@@ -609,94 +463,7 @@ footer .cards .cta {
     background-size: auto 13px;
 }
 
-.landing-form section {
-    padding-bottom: 40px;
-}
 
-#block-05 .col.small-full.right-form {
-    padding: 0;
-}
-
-.form .halves {
-    width: 100%;
-    padding: 0;
-}
-
-.accordion form .col {
-    background: transparent;
-    border: 0;
-}
-
-#block-05 .accordion form .col.halves.second {
-    display: none;
-}
-
-#content .inline-form ul li input,
-#content .inline-form ul li textarea {
-    max-width: none;
-}
-
-
-/* video & tertiary */
-
-.video-gallery #banner {
-    min-height: 300px;
-    margin-bottom: 40px;
-}
-
-.video-gallery #content h2 {
-    padding: 0px 40px 20px 20px;
-}
-
-.video-gallery #content .container .col {
-    position: relative;
-}
-
-.tertiary-columns .col,
-.accordion .col {
-    background: #fff;
-    padding: 20px;
-    border-top: 1px solid #ccc;
-}
-
-.large-full .col > img:first-child {
-    width: 90px;
-    height: 90px;
-    border-radius: 90px;
-    margin: 0 10px 10px 0;
-    float: left;
-}
-
-.large-full .col img + h3 {
-    clear: none;
-    width: auto;
-    margin: 10px 0;
-}
-
-.large-full .col p {
-    clear: both;
-    padding-bottom: 15px;
-}
-
-.large-full .col p:last-child {
-    padding-bottom: 0;
-}
-
-.scroll-to-top {
-    display: none !important;
-}
-
-
-.close-button {
-    z-index: 900;
-    left: 15px;
-    top: 15px;
-    width: 40px;
-}
-
-.accordion .large-full .col p {
-    clear: none;
-}
 
 
 #content form input[type=submit],
@@ -705,33 +472,6 @@ footer .cards .cta {
     display: inline-block;
     border-radius: 30px;
 }
-
-.cta.bottom,
-.cta.button.small-bottom {
-    display: block;
-    border-radius: 15px;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-}
-
-.hidden-video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 200px;
-}
-
-.slides li .play-button {
-    position: absolute;
-    cursor: pointer;
-    width: 80px;
-    height: 80px;
-    top: 60px;
-    left: 50%;
-    margin: 0 0 0 -40px;
-}
-
 
 
 .col {
@@ -916,10 +656,10 @@ footer .cards .cta {
 
 #main > h2:first-child {
     font-size: 20px;
-line-height: 25px;
-padding-bottom: 19px;
-border-bottom: 1px solid #e7e7e7;
-margin-bottom: 20px;
+    line-height: 25px;
+    padding-bottom: 19px;
+    border-bottom: 1px solid #e7e7e7;
+    margin-bottom: 20px;
 }
 
 #main .share h3 {
@@ -1000,13 +740,13 @@ margin-bottom: 20px;
 }
 
 
-        #sidebar h2 span.cta,
-        .blog #content .expandable.comment-header .cta {
-            margin-top: -2px;           
-        }
+#sidebar h2 span.cta,
+.blog #content .expandable.comment-header .cta {
+    margin-top: -2px;           
+}
 
-        #sidebar ul {
-    display: none;
+#sidebar ul {
+display: none;
 }
 
 #hero-overlay {

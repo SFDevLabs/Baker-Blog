@@ -131,7 +131,6 @@ h4,
 dl dt,
 dl dd,
 blockquote,
-.green .quote-info h3,
 #primary-nav a,
 #primary-nav a:visited,
 #primary-nav a:hover,
@@ -191,9 +190,6 @@ footer a:hover {
 
 .text-block.orange a,
 form input[type=submit],
-.landing-form.orange-white #banner .orange h2,
-.landing-form.orange-white #banner .orange p,
-#content.landing-form .form h2,
 a.cta,
 a.cta:visited,
 a.cta:hover,
@@ -223,44 +219,24 @@ a.cta:active,
 }
 
 .featured a,
-#form-contents.thank-you-message p:first-child,
-.intro-box p,
-#content.landing-form section .left-content .col.halves li,
-.landing-form p strong,
-.landing-form h3,
-.solar-benefits .videos .col p,
 #primary-nav .nav-phone span,
-.solar-benefits .accordion a span,
-.solar-benefits #site-header #primary-nav li.nav-solar-benefits a,
-.solar-benefits .accordion h3,
-.solar-benefits strong,
-.solar-benefits #content h2,
-.solar-benefits .white-bg h3,
 .orange h2,
 .orange h3 {
 	color: #f27430;
 }
 
 form input[type=submit],
-.landing-form .cta,
 .orange.text-block,
-.landing-form .form h2,
 #site-header #primary-nav #contact-us-details li.nav-email,
-.solar-benefits #subnav,
-.solar-benefits .cta,
 #contact-us,
 .orange .cta {
 	background-color: #f27430;
 }
 
 form input[type=submit]:hover,
-.landing-form .cta:hover,
-.solar-benefits .cta:hover,
 .orange .cta:hover {
 	background-color: rgba(242, 116, 48, 0.75);
 }
-
-
 
 .orange-yellow h2,
 .orange-yellow h3 {
@@ -275,154 +251,45 @@ form input[type=submit]:hover,
 }
 
 
-.solar-benefits #content.secondary-template > section {
-	background-color: #fdb72b;
-}
-
-
 .blue h2,
 .blue h3 {
 	color: #1579a7;
 }
 
-.about-baker #content.secondary-template #block-03 .cta,
-.about-baker #content.secondary-template #block-05 .cta,
 .blue .cta {
 	background-color: #1579a7;
 }
 
-.about-baker #content.secondary-template #block-03 .cta:hover,
-.about-baker #content.secondary-template #block-05 .cta:hover,
 .blue .cta:hover {
 	background-color: rgba(21, 121, 167, 0.75);
 }
 
-span.blue,
-.landing-form.orange-blue h2 span:first-child,
-.about-baker #site-header #primary-nav li.nav-about-baker a,
-.about-baker .videos .col p,
-.about-baker #content h2,
-.about-baker #content h3,
 .bright-blue h2,
 .bright-blue h3 {
 	color: #3bb0ce;
 }
 
-.orange-blue form input[type=submit],
-.about-baker #content.secondary-template > section,
-.about-baker #subnav,
-.about-baker #content .cta,
 .bright-blue .cta {
 	background-color: #3bb0ce;
 }
 
-.orange-blue form input[type=submit]:hover,
-.about-baker #content .cta:hover,
 .bright-blue .cta:hover {
 	background-color: rgba(59, 176, 206, 0.75);
 }
 
-
-.residential #site-header #primary-nav li.nav-residential-solutions a,
-.residential .videos .col p,
-.residential #content h2,
-.residential #content h3,
-.residential strong,
 .green h2,
 .green h3 {
 	color: #bdbf02;
 }
 
-.residential #content.secondary-template > section,
-.residential #subnav,
-.residential #content .cta,
 .green .cta {
 	background-color: #bdbf02;
 }
 
-.residential #content .cta:hover,
 .green .cta:hover {
 	background-color: rgba(189, 191, 2, 0.75);
 }
 
-
-
-.commercial #site-header #primary-nav li.nav-commercial-solutions a,
-.commercial .videos .col p,
-.commercial #content h2,
-.commercial #content h3 {
-	color: #ffa800;
-}
-
-.commercial #subnav,
-.commercial #content .cta {
-	background-color: #ffa800;
-}
-
-.commercial #content .cta:hover {
-	background-color: rgba(255, 168, 0, 0.75);	
-}
-
-.commercial #content.secondary-template > section {
-	background-color: #fdcf31;
-}
-
-#block-05 .accordion .red-orange,
-.landing-form h2,
-.red-orange h2,
-.red-orange h3 {
-	color: #ee4f2e;
-}
-
-#block-05 input[type=submit],
-.red-orange .cta {
-	background-color: #ee4f2e;
-}
-
-#block-05 input[type=submit]:hover,
-.red-orange .cta:hover {
-	background-color: rgba(238, 79, 46, 0.75);
-}
-
-.red-orange .cta span {
-	color: #fece30;
-}
-
-.solar-benefits #content .red h2,
-.solar-benefits #content .red h3,
-.red h2,
-.red h3 {
-	color: #f14e23;
-}
-
-
-.solar-benefits .cta span {
-	color: #fecf32;
-}
-
-.solar-benefits #content #block-05 .accordion h3,
-.solar-benefits #content #block-03 .accordion h3,
-.solar-benefits .orange-bg .scroll a,
-.solar-benefits .orange-bg .scroll a:visited,
-.solar-benefits .orange-bg .scroll a:hover,
-.solar-benefits .orange-bg .scroll a:active,
-.solar-benefits .orange-bg h3 {
-	color: #fbf284;
-}
-
-.solar-benefits #content #block-05 strong,
-.solar-benefits #content #block-03 strong,
-.solar-benefits #content #block-05 ul li,
-.solar-benefits #content #block-05 ol li,
-.solar-benefits #content #block-03 p,
-.solar-benefits #content #block-05 p {
-	color: #381d00;
-}
-
-
-.intro-box {
-	background: #fedd50;
-}
 
 
 
@@ -437,7 +304,6 @@ body {
 }
 
 h1,
-#content.landing-form .left-content p.jumbo,
 .hero.post h2,
 h2,
 h3 {
@@ -453,11 +319,8 @@ h4 {
 }
 
 select,
-.landing-form.orange-blue h2 span:first-child,
 input,
-textarea,
-.tertiary-columns h3,
-.accordion h3 {
+textarea {
 	font-family: 'GillSansMTStd-Medium', 'Lucida Grande', 'Tahoma', sans-serif;	
 }
 
@@ -465,16 +328,10 @@ h2 {
 	letter-spacing: -0.02em;
 }
 
-#content.landing-form .left-content h2:last-child,
 h3 {
 	font-size: 30px;
 	line-height: 32px;
 	padding-bottom: 16px;
-}
-
-.landing-form .form h2 {
-	font-size: 35px;
-	line-height: 35px;
 }
 
 header ul #contact-us {
@@ -495,45 +352,13 @@ footer ul {
 	list-style-type: none;
 }
 
-.footer-links h2 + h3,
-.footer-links h3 + h3 {
-	padding-top: 14px;
-}
-
-.footer-links ul {
-	padding-bottom: 14px;
-}
-
-.footer-links h2,
-.footer-links ul:last-child {
-	padding-bottom: 0;
-}
-
-.footer-links h3 {
-	padding-bottom: 0;
-}
-
 .post h2 {
 	font-family: 'GillSansMTStd-Medium', 'Lucida Grande', 'Tahoma', sans-serif;	
 	font-weight: normal;
 }
-.footer-links h3,
+
 .text-block.blog h3 {
 	font-family: 'GillSansMTStd-Medium', 'Lucida Grande', 'Tahoma', sans-serif;	
-}
-
-
-.home #content .text-block.blog .byline {
-	font-size: 16px;
-	line-height: 17px;
-	padding-bottom: 13px;
-}
-
-.landing-form h3,
-.quote-info h3 {
-	margin-bottom: 0;
-	padding-bottom: 0;
-	font-family: 'GillSansMTStd-Medium', 'Lucida Grande', 'Tahoma', sans-serif;
 }
 
 blockquote {
@@ -561,10 +386,6 @@ form input[type=submit],
 	letter-spacing: -1px;
 }
 
-.form h2,
-.videos .col p,
-.footer-links h2,
-.page-template-tertiary-php #content h3,
 h4,
 strong {
 	font-family: 'GillSansMTStd-Bold', 'Lucida Grande', 'Tahoma', sans-serif;		
@@ -650,6 +471,7 @@ strong {
 #content {
 	overflow: hidden;
 }
+
 #mainsite-links,
 footer {
 	position: relative;
@@ -755,25 +577,6 @@ footer .logo.baker {
 }
 
 
-#content .small-full.form,
-.form {
-	background: #f7f7f7;
-}
-
-
-.landing-form h2 span,
-.landing-form h3 span {
-	display: block;
-}
-
-#content section .col .form ul {
-	list-style: none;
-	padding-left: 0;
-}
-
-.form form:first-child ul {
-	padding-top: 20px;
-}
 
 form ul li,
 form p {
@@ -839,57 +642,244 @@ form input[type=submit] {
     background-size: auto 13px;	
 }
 
-
-.inline-form ul li input,
-.inline-form ul li textarea {
-	max-width: 350px;
-}
-
-p.privacy {
-	clear: both;
-}
-
-#content.landing-form .inline-form ul {
-	padding: 0;
-}
-
-.submit-button.centered input[type=submit] {
-	display: inline-block;
-}
-
 .search input,
-.search .button,
-.home #block-05 .form input,
-form .halves li input {
+.search .button {
 	padding: 5px 20px;
 	font-size: 16px;
 	line-height: 20px;
 }
 
-.intro-box {
-	float: left;
+
+
+
+/*blog landing */
+
+.featured {
+	background: transparent url(../images/hero-bg.jpg) center center no-repeat;
+	background-size: cover;
+	padding-bottom: 40px;
+}
+
+.featured .post {
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+.hero.post .text-block.white-bg {
+	padding: 30px 30px 20px 30px;
+}
+
+.blog.landing .hero.post .post-meta {
+	padding-bottom: 12px;
+}
+
+.post .post-meta {
+	padding-bottom: 6px;
+}
+
+.post img {
+	display: block;
 	width: 100%;
-	margin-bottom: 20px;
 }
 
-.enjoy-electricity-again .intro-box {
-	padding-right: 20px;
+.side.post h2 {
+	padding-top: 0px;
 }
 
-#content.landing-form section .left-content .col.halves {
-	padding-left: 0;
+.blog.landing .post h2 {
+	padding: 0px 0 6px 0;
+}
+
+#sidebar h2 {
+	padding: 0 0 9px 0;
+	margin: 0 0 10px 0;
+	border-bottom: 1px solid #ddd;				
+}
+
+.search {
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.search input[type="text"] {
+	padding-right: 100px;
+	margin: 0;
+}
+
+#content form.search input[type="submit"] {
+	position: absolute;
+	right: 0;
+	top: 0;
+	font-size: 14px;
+	width: 60px;
+	padding: 6px 20px 6px 15px !important;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	font-weight: normal;
+	background-image: none;
+}
+
+#sidebar {
+    padding: 40px 40px 3800px;
+    background: #f9f9f9;
+    margin-bottom: -3760px;
+}
+
+#sidebar ul {
 	list-style: none;
 }
 
-#content.landing-form section .left-content .col.halves,
-#content.landing-form section .left-content .col.halves li {
+#sidebar .widget {
+	margin-bottom: 30px;
+}
+
+.widget_woodojo_tweets ul li {
+	margin-bottom: 15px;
+}
+
+#sidebar .button.cta {
+	padding-top: 10px;
+	padding-bottom: 10px;			
+}
+
+.text-block.orange {
+	padding: 10px 30px;
+}
+
+
+#sidebar .time-ago,
+.blog #sidebar .author-name {
+	font-size: 12px;
+	line-height: 18px;
+	display: block;
+	border-bottom: 1px solid #e7e7e7;
+	padding-bottom: 9px;
+	margin-bottom: 10px;
+}
+
+#sidebar li:last-child .time-ago,
+.blog #sidebar li:last-child .author-name {
+	border-bottom: 0;
+	margin-bottom: 0;
 	padding-bottom: 0;
 }
 
-.landing-form #banner .text-block h2:last-child {
+.blog .post .post-date {
+	font-family: 'GillSansMTStd-Bold';	
+	text-transform: uppercase;
+}
+
+.blog #sidebar .post-author,
+.blog .post .post-author {
+	font-family: 'GillSansMTStd-MediumItalic';
+}
+
+
+
+/* blog */
+
+#main {
+	z-index: 3;
+}
+
+#sidebar {
+	z-index: 1;
+}
+
+#sidebar .time-ago,
+.blog #sidebar .author-name{
+	text-transform: uppercase;
+	font-family: 'GillSansMTStd-Medium';
+}
+
+.single .featured .post-author {
+	font-size: 30px;
+	line-height: 30px;
+	margin-bottom: 10px;
+}
+
+.single .featured .post-date {
+	margin-bottom: 15px;
+}
+
+#sidebar li:last-child .time-ago,
+.blog #sidebar li:last-child .author-name {
+	border-bottom: 0;
+	margin-bottom: 0;
 	padding-bottom: 0;
 }
 
-#thank-you {
-	display: none;
+.single #main p {
+	margin-bottom: 25px;
+}
+
+
+
+
+.blog .post .author-photo {
+	width: 5em;
+	height: 5em;
+	border-radius: 10em;
+	box-shadow: 0 0 0.625em #eee;
+	border: 2px solid #ddd;
+	margin-right: 3.8%;
+	float: left;
+}
+
+.blog .post .author-bio p {
+	font-size: 16px;
+}
+
+
+.related-posts > .col {
+	background: #f9f9f9;
+	position: relative;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.related-posts h4 {
+	font-family: 'GillSansMTStd-Medium';
+	font-weight: normal;
+	padding: 20px;	
+}
+
+#sidebar h2,
+.blog #content .expandable.comment-header {
+	float: left;
+	width: 100%;
+	clear: both;
+}
+
+.blog #content .expandable.comment-header .cta {
+	text-indent: -5000px;
+	width: 2.5em;
+	height: 2.5em;	
+	padding: 0;
+	background: #f27430 url(../images/button-right.png) center center no-repeat;
+	background-size: 0.9375em;
+}
+
+
+#sidebar h2 span,
+.blog #content .expandable.comment-header span {
+	float: left;
+	margin-right: 10px;
+	line-height: 1.25em;
+}
+
+.post-author .categories {
+	display: block;
+}
+
+
+#main .author-bio p,
+#main .share .social a {
+	margin-bottom: 0;
+}
+
+#sidebar h2 .cta.button {
+	background: #aaa url(../images/button-right.png) center center no-repeat;
+	padding: 12px;
+	background-size: 0.75em;
 }

@@ -19,7 +19,6 @@
 }
 
 
-.home h2,
 footer .cards h2 {
     font-size: 36px;
     line-height: 36px;
@@ -43,7 +42,6 @@ form ul li select,
 form ul li input,
 .form textarea,
 form input[type=submit],
-.page-template-tertiary-php #content h3,
 h4,
 dl dt,
 dl dd,
@@ -60,12 +58,6 @@ ol li {
     line-height: 30px;
 }
 
-.tertiary-columns .col p,
-.accordion .col p {
-    padding-bottom: 15px;
-}
-
-.quote-info p,
 .cta {
     font-size: 16px;
     line-height: 20px;
@@ -75,10 +67,6 @@ ol li {
     font-size: 20px;
 }
 
-#content.landing-form .form h3,
-.quote-info h3,
-blockquote,
-.home #content .text-block p,
 .cards p,
 #mainsite-links .card p {
     font-size: 20px;
@@ -86,29 +74,16 @@ blockquote,
     padding-bottom: 20px;
 }
 
-.home #content .text-block.blog p,
-footer p,
-.footer-links h2,
-.footer-links h3,
-.footer-links ul li {
+footer p {
     font-size: 19px;
     line-height: 24px;
 }
 
 .text-block.white-bg p,
-footer .text-block p,
-.accordion p,
-.home #content .text-block p {
+footer .text-block p {
     padding-bottom: 20px;
 }
 
-.landing-form h2 span + span {
-    padding-top: 10px;
-}
-#content.landing-form section .form ul li,
-.left-content p,
-.left-content ul,
-.page-template-tertiary-php #content h3,
 .text-block p {
     padding-bottom: 10px;
 }
@@ -253,8 +228,6 @@ footer .text-block p,
     border-top-right-radius: 15px;
 }
 
-
-.form,
 #content .text-block.no-cta {
     border-radius: 15px;
 }
@@ -288,16 +261,6 @@ form input[type=submit],
 }
 
 
-.slides li .play-button {
-    position: absolute;
-    cursor: pointer;
-    height: 160px;
-    width: 160px;
-    left: 50%;
-    top: 50%;
-    margin: 0 0 0 -80px;
-}
-
 .large-full .col .radius,
 .large-full .col > img:first-child {
     width: 100%;
@@ -305,29 +268,7 @@ form input[type=submit],
     margin-bottom: 15px;
 }
 
-#content > section.expanded {
-    padding-bottom: 70px;
-}
 
-#content .scroll-to-top,
-#content .close-button {
-    left: 10px;
-}
-
-#content .scroll-to-top {
-    bottom: -36px;
-    width: 160px;
-    left: 60px;
-}
-
-#content .close-button {
-    width: 40px;
-    top: 0;
-}
-
-.accordion .medium-full {
-    padding-bottom: 20px;
-}
 
 
 /* header */
@@ -543,40 +484,7 @@ footer .logo.bbb,
 
 
 
-/* forms */
 
-.intro-box {
-    border-radius: 15px;
-    padding: 10px 20px 5px 20px;
-}
-
-.intro-box .halves {
-    width: 50%;
-    margin: 0;
-}
-
-.intro-box .halves .halves {
-    width: 40%;
-}
-
-.intro-box .halves ul.halves,
-.intro-box .halves p.halves:last-child {
-    width: 60%;
-}
-
-.intro-box .halves p.halves:last-child {
-    padding-top: 25px;
-}
-
-.form p input[type=submit] {
-    padding: 15px 35px 15px 15px !important;
-    line-height: 21px;
-}
-
-.form h2 + .inline-form:first-child,
-.form .inline-form:first-child {
-    padding-top: 20px;
-}
 
 .cta.link a,
 .cta,
@@ -609,68 +517,6 @@ footer .logo.bbb,
     padding-right: 0;
 }
 
-.form h3 {
-    padding: 20px 20px 0px;
-}
-
-.landing-form .form h3 span {
-    display: inline;
-}
-
-.form {
-    padding-bottom: 20px;
-    margin-bottom: 30px;
-}
-
-.form h3 {
-    text-align: center;
-}
-
-#form-contents.thank-you-message,
-.form form,
-.form > p {
-    padding: 0 20px;
-}
-
-.form p.privacy {
-    padding: 10px 20px 0 20px;
-}
-
-.landing-form.orange-blue .form h2 {
-    padding: 10px 20px;
-    margin-bottom: 20px;
-}
-
-.form p:first-child {
-    padding-top: 20px;
-}
-
-form .col.halves,
-.halves input,
-.halves label,
-.halves textarea {
-    width: 100%;
-    clear: both;
-    margin-left: 0;
-}
-
-.landing-form .halves.second {
-    padding-top: 0;
-}
-
-.form .centered {
-    text-align: left;
-}
-
-#block-05 .accordion .col.halves {
-    padding: 0;
-}
-
-#block-05 .accordion .col.halves img {
-    display: block;
-    margin: 10px auto;
-}
-
 
 
 
@@ -682,11 +528,6 @@ form .col.halves,
     background-clip: padding-box !important;
 }
 
-.flex-direction-nav {
-    margin: 0 auto;
-}
-
-.flex-direction-nav,
 .container {
     padding: 0 50px;
 }
@@ -700,16 +541,13 @@ form .col.halves,
 .blog #content .text-block.orange,
 .blog #content .text-block.white-bg,
 form input[type=submit],
-.tertiary-columns .col,
-.accordion .col,
 .cta,
 .text-block {
     padding-left: 15px;
     padding-right: 15px;
 }
 
-.tertiary-columns .col,
-.accordion .col,
+
 .text-block.blog {
     padding-right: 0;
 }
@@ -741,13 +579,6 @@ form input[type=submit],
     background-size: auto 10px;
     padding: 15px 40px 15px 15px;
     line-height: 12px;    
-}
-
-#content .expanded .cta span {
-    height: 15px;
-    width: 10px;
-    background: transparent url(../images/dropdown-double-arrow.png) center bottom no-repeat;
-    background-size: 100% auto;
 }
 
 #mainsite-links .cards .one {
@@ -826,10 +657,6 @@ form input[type=submit],
     width: 30.769230769231%;
 }
 
-.video-gallery .medium-col-3 {
-    width: 48.12874251497%;
-}
-
 .medium-col-3 {
     width: 46.634615384615%;
 }
@@ -849,12 +676,6 @@ form input[type=submit],
 
 .blog .medium-col-4 {
     width: 64.4%;
-}
-
-.medium-fourths .col {
-    width: 25%;
-    padding-left: 2.884615384615%;
-    margin-left: 0;
 }
 
 
@@ -975,10 +796,8 @@ form input[type=submit],
 }
 
 .featured .container.text-container {
-
     background: transparent url('/images/hero-bg.jpg') center center no-repeat;
     background-size: cover;
-
 }
 
 .single.blog #content .featured h1 {

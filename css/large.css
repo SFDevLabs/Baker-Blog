@@ -52,11 +52,6 @@ ol li {
     line-height: 24px;
 }
 
-.quote-info p {
-    font-size: 23px;
-    line-height: 28px;
-}
-
 .cta span {
     font-size: 33px;
 }
@@ -76,8 +71,7 @@ blockquote,
 }
 
 .text-block.white-bg p,
-footer .text-block p,
-.home #content .text-block p {
+footer .text-block p {
     padding-bottom: 20px;
 }
 
@@ -85,11 +79,7 @@ footer .text-block p,
     padding-bottom: 10px;
 }
 
-.home #content .text-block.blog p,
-footer p,
-.footer-links h2,
-.footer-links h3,
-.footer-links ul li {
+footer p {
     font-size: 19px;
     line-height: 24px;
 }
@@ -176,11 +166,6 @@ footer p,
     border-top-right-radius: 40px;
 }
 
-#content.landing-form .form h2 {
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
-}
-
 .site-title,
 .site-title a {
     width: 240px;
@@ -202,30 +187,7 @@ form input[type=submit],
     border-bottom-right-radius: 40px;
 }
 
-.slides li .play-button {
-    position: absolute;
-    cursor: pointer;
-    height: 160px;
-    width: 160px;
-    left: 50%;
-    top: 50%;
-    margin: -80px 0 0 -80px;
-}
 
-.large-full .col .radius,
-.large-full .col > img:first-child {
-    width: 290px;
-    height: 290px;
-    border-radius: 290px;
-    margin-bottom: 15px;
-}
-
-.scroll-to-top {
-    left: -30px;
-}
-.close-button {
-    left: -120px;
-}
 
 
 /* header */
@@ -415,43 +377,6 @@ footer .logo.sunpower {
 }
 
 
-/* forms */
-
-
-.form,
-#content .text-block.no-cta {
-    border-radius: 40px;
-}
-
-.form form,
-.form .privacy {
-    padding: 0 40px;
-}
-
-.form {
-    min-height: 400px;
-}
-
-.form h3 {
-    text-align: center;
-}
-
-#form-contents.thank-you-message,
-.form form {
-    padding: 20px 40px;
-}
-
-.form {
-    padding-bottom: 40px;
-    margin-bottom: 40px;
-}
-
-
-.intro-box {
-    border-radius: 50px;
-    padding: 20px 30px 0 30px;
-}
-
 .cta.link a,
 .cta {
     padding: 15px 50px 15px 30px;
@@ -463,66 +388,7 @@ footer .logo.sunpower {
 }
 
 
-.form p input[type=submit] {
-    padding: 15px 50px 15px 30px !important;
-    line-height: 21px;
-}
 
-.form h3 {
-    padding: 40px 40px 0px;
-}
-
-.inline-form p.submit-button,
-.inline-form + p.privacy {
-    width: auto;
-    margin: 0 auto;
-    padding-left: 180px;
-}
-
-.inline-form label,
-.inline-form input,
-.inline-form textarea {
-    display: block;
-    float: left;
-}
-
-.inline-form ul li label {
-    width: 165px;
-    text-align: right;
-    line-height: 52px;
-    margin-right: 15px;
-}
-
-.inline-form ul li label.multiline {
-    line-height: 24px;
-}
-
-.inline-form + p.privacy {
-    padding-left: 220px;
-    padding-top: 20px;
-}
-
-.form .inline-form {
-    padding-top: 40px;
-}
-
-.form form:last-child {
-    padding-bottom: 0;
-}
-
-.orange-white .inline-form ul li label {
-    width: 95px;
-}
-
-.orange-white .inline-form ul li input, 
-.orange-white .inline-form ul li textarea {
-    max-width: 290px;
-}
-
-.orange-white .inline-form p.submit-button, 
-.orange-white .inline-form + p.privacy {
-    padding-left: 115px;
-}
 
 
 .cta.left {
@@ -554,9 +420,7 @@ footer .logo.sunpower {
     padding-top: 160px;
 }
 
-
 .intro .large-col-4,
-.footer-links .col:first-child,
 .container .col:first-child {
     margin-left: 0;
 }
@@ -579,17 +443,12 @@ footer .logo.sunpower {
     max-width: 320px;
 }
 
-
 .large-col-2.center {
     width: 28.712871287129%;
 }
 
 .large-col-3 {
     width: 46.634615384615%;
-}
-
-.home #block-05 .accordion .col.large-col-3.right-form {
-    width: 49.51923076923%;
 }
 
 .blog .large-col-3 {
@@ -612,23 +471,6 @@ footer .logo.sunpower {
     width: 25%;
     padding-left: 2.884615384615%;
     margin-left: 0;
-}
-
-.halves {
-    width: 50%;
-    margin: 0;
-}
-
-.halves.extra {
-    width: 100%;
-}
-
-.halves.first {
-    padding-right: 3.846153846154%;
-}
-
-.halves.second {
-    padding-left: 3.846153846154%;
 }
 
 
@@ -773,8 +615,8 @@ footer .logo.sunpower {
 }
 
 #hero-image {
-position: absolute; right: -16%;
-
+    position: absolute; 
+    right: -16%;
 }
 
 .bull {
@@ -782,24 +624,18 @@ position: absolute; right: -16%;
 }
 
 .single.blog #content h1 {
-margin-top: 60px;
+    margin-top: 60px;
 }
+
 @media all and (max-width: 1100px) {
 
 
-    .page-template-tertiary-php #block-01, 
     #content > section .container,
     .container {
         padding-left: 40px;
         padding-right: 40px;
     }
 
-    section#block-01 .flexslider .container, 
-    section#block-06 .flexslider .container {
-        padding: 0 60px;
-    }
-
-    .home h2,
     .cards h2 {
         font-size: 54px;
         line-height: 54px;
@@ -810,38 +646,15 @@ margin-top: 60px;
         line-height: 42px;
     }
 
-    .home #content .text-block.blog p,
-    footer p,
-    .footer-links h2,
-    .footer-links h3,
-    .footer-links ul li {
+    footer p {
         font-size: 19px;
         line-height: 24px;
     }
 
-    header #subnav ul li {
-        font-size: 18px;
-        line-height: 18px;
-    }
-
-    #site-header #primary-nav #contact-us-details li,
-    #site-header #primary-nav #contact-us-details li a,
-    #site-header #primary-nav #contact-us-details li span {
-        margin: 0px;
-    }
-
-    .large-full .col > img:first-child {
-        width: 100%;
-        height: auto;
-    }
-
-    form input[type=submit],
-    .quote-info p {
+    form input[type=submit] {
         font-size: 18px;
         line-height: 24px;
     }
-
-
 
     #site-header #primary-nav ul li {
         width: auto;
@@ -854,16 +667,6 @@ margin-top: 60px;
         line-height: 40px;
     }
 
-    .video-gallery #content.video-gallery #banner,
-    #content.video-gallery #banner {
-        height: 438px;
-    }
-
-    .video-gallery #content.video-gallery #banner .container,
-    #content.video-gallery #banner .container {
-        width: 700px;
-    }
-
 }
 
 @media screen and (max-width: 1000px) {
@@ -873,16 +676,11 @@ margin-top: 60px;
         line-height: 39px;
     }
 
-    .home #content .text-block.blog p,
-    footer p,
-    .footer-links h2,
-    .footer-links h3,
-    .footer-links ul li {
+    footer p {
         font-size: 19px;
         line-height: 24px;
     }
 
-    .quote-info p,
     .cta {
         font-size: 16px;
         line-height: 24px;
@@ -900,35 +698,22 @@ margin-top: 60px;
         margin-right: 20px;
     }
 
-    .page-template-tertiary-php #content h3,
     h4,
     dl dt,
     dl dd,
     p,
     ul li,
     ol li,
-    .quote-info h3,
     blockquote,
-    .home #content .text-block p,
     .cards p,
     #mainsite-links .card p {
         font-size: 20px;
         line-height: 24px;
     }
 
-    .quote-info h3,
     blockquote,
-    .home #content .text-block p,
     .cards p,
     #mainsite-links .card p {
         padding-bottom: 20px;
-    }
-    .circle.orange-circles img {
-        max-height: 100%;
-    }
-    .circle.orange-circles {
-        max-width: 750px;
-        max-height: 500px;
-        right: -150px;
     }
 }
