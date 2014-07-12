@@ -1,33 +1,33 @@
-@import url(./reset.css);
+@import url(http://reset5.googlecode.com/hg/reset.min.css);
 
-@import url(./fonts.css);
-@import url(./flexslider.css);
-@import url(./extra-content-styles.css);
+@import url(/wp-content/themes/baker/styles/fonts.css);
+@import url(/wp-content/themes/baker/styles/flexslider.css);
+@import url(/wp-content/themes/baker/styles/extra-content-styles.css);
 
 
 /* standard mobile query */
-@import url(./small.css) (min-width: 0px) and (max-width: 599px);
+@import url(/wp-content/themes/baker/styles/small.css) (min-width: 0px) and (max-width: 599px);
 
 /* htc one query */
-@import url(./small.css) (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3);
+@import url(/wp-content/themes/baker/styles/small.css) (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3);
 
 /* samsung galaxy s2 query */
-@import url(./small.css) (device-width: 320px) and (device-height: 534px) and (-webkit-device-pixel-ratio: 1.5);
+@import url(/wp-content/themes/baker/styles/small.css) (device-width: 320px) and (device-height: 534px) and (-webkit-device-pixel-ratio: 1.5);
 
 /* samsung galaxy s3 query */
-@import url(./small.css) (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2);
+@import url(/wp-content/themes/baker/styles/small.css) (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2);
 
 /* samsung galaxy s4 query */
-@import url(./small.css) (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3);
+@import url(/wp-content/themes/baker/styles/small.css) (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3);
 
 /* lg nexus 4 query */
-@import url(./small.css) (device-width: 384px) and (device-height: 592px) and (-webkit-device-pixel-ratio: 2);
+@import url(/wp-content/themes/baker/styles/small.css) (device-width: 384px) and (device-height: 592px) and (-webkit-device-pixel-ratio: 2);
 
 /* asus nexus 7 */
-@import url(./medium.css) (device-width: 601px) and (device-height: 906px) and (-webkit-min-device-pixel-ratio: 1.331) and (-webkit-max-device-pixel-ratio: 1.332);
+@import url(/wp-content/themes/baker/styles/medium.css) (device-width: 601px) and (device-height: 906px) and (-webkit-min-device-pixel-ratio: 1.331) and (-webkit-max-device-pixel-ratio: 1.332);
 
-@import url(./medium.css) (min-width: 600px) and (max-width: 899px);
-@import url(./large.css) (min-width: 900px);
+@import url(/wp-content/themes/baker/styles/medium.css) (min-width: 600px) and (max-width: 899px);
+@import url(/wp-content/themes/baker/styles/large.css) (min-width: 900px);
 
 /* Temporarily hide nav chat */
 .nav-chat {
@@ -38,9 +38,21 @@ position:absolute;
 display:none!important;
 }
 
+/* Please abstract me to a proper soluton added by jeffj */
+@media only screen 
+and (min-width : 900px)
+and (max-width : 1100px) {
+/* Styles */
+    #contact-us-details{
+            width: 590px !important;
+    }
+}
+
 *,
 *:before,
 *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
  margin:0;/*body margin fix */
 }
@@ -60,12 +72,6 @@ footer {
 	margin: 0 auto;
 }
 
-.pagination:before,
-.pagination:after,
-#main:before,
-#main:after,
-#sidebar:before,
-#sidebar:after,
 .accordion .medium-full:before,
 .accordion .medium-full:after,
 header:before,
@@ -80,9 +86,6 @@ footer:after,
     display: table;
 }
 
-.pagination:after,
-#main:after,
-#sidebar:after,
 .accordion .medium-full:after,
 header:after,
 #content:after,
@@ -91,9 +94,6 @@ footer:after,
 	clear: both;
 }
 
-.pagination,
-#main,
-#sidebar,
 .accordion .medium-full,
 header,
 #content,
@@ -133,11 +133,6 @@ lightest gray = #a9a9a9
 
 */
 
-.blog #main .post-content h3,
-#sidebar ul li,
-#main h2,
-#sidebar h2,
-.blog h1,
 form ul li select,
 form ul li input,
 textarea,
@@ -188,21 +183,20 @@ body {
 a,
 a:hover {
 	-webkit-transition: color 1s;
+    -moz-transition: color 1s;
+    -o-transition: color 1s;
     transition: color 1s;
 }
 
-a.col h4,
 a:link,
 a:visited {
 	color: #aaa;
 }
 
-a.col:active h4,
 a:active {
 	color: #222;
 }
 
-a.col:active h4,
 a:hover {
 	color: #333;
 }
@@ -211,17 +205,6 @@ footer a:hover {
 	color: #ddd;
 }
 
-
-#site-footer-top .intro h2,
-footer a:hover {
-	color: #ddd;
-}
-
-#site-footer-top .intro p {
-	color: #bbb;
-}
-
-.text-block.orange a,
 form input[type=submit],
 .landing-form.orange-white #banner .orange h2,
 .landing-form.orange-white #banner .orange p,
@@ -274,9 +257,6 @@ a.cta:active,
 	color: #aaaaaa;
 }
 
-.blog #main .post-content h1,
-.blog #main .post-content h2,
-.featured a,
 #form-contents.thank-you-message p:first-child,
 .intro-box p,
 #content.landing-form section .left-content .col.halves li,
@@ -355,7 +335,6 @@ form input[type=submit]:hover,
 	background-color: rgba(21, 121, 167, 0.75);
 }
 
-.blog .post-content a,
 span.blue,
 .landing-form.orange-blue h2 span:first-child,
 .about-baker #site-header #primary-nav li.nav-about-baker a,
@@ -368,9 +347,8 @@ span.blue,
 }
 
 
-.blog .post-content a:hover,
-#block-03 a, 
-#block-05 a{
+#block-03 a, #block-05 a{
+	
 	color:#1579a7;
 }
 
@@ -511,9 +489,6 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.blog #main .post-content h1,
-.blog h1,
-.hero.post h2,
 #content.landing-form .left-content p.jumbo,
 h2,
 h3 {
@@ -542,12 +517,6 @@ h3 {
 	font-size: 30px;
 	line-height: 32px;
 	padding-bottom: 16px;
-}
-
-.blog #main .post-content h2,
-.post h2 {
-	font-family: 'GillSansMTStd-Medium', 'Lucida Grande', 'Tahoma', sans-serif;	
-	font-weight: normal;
 }
 
 .landing-form .form h2 {
@@ -616,13 +585,10 @@ blockquote {
 }
 
 .home #content .quote-info h3 + p {
-	padding: 0;
+	padding-bottom: 0;
 	margin-bottom: 0;
 }
 
-#sidebar h2,
-#main > h2:first-child,
-.post-meta,
 form input[type=submit],
 .landing-form .left-content p strong,
 .cta {
@@ -635,7 +601,6 @@ form input[type=submit],
 	letter-spacing: -1px;
 }
 
-.blog #main .post-content h3,
 .form h2,
 .videos .col p,
 .footer-links h2,
@@ -643,11 +608,6 @@ form input[type=submit],
 h4,
 strong {
 	font-family: 'GillSansMTStd-Bold', 'Lucida Grande', 'Tahoma', sans-serif;		
-}
-
-#sidebar h2 {
-	font-size: 16px;
-	line-height: 1.25em;
 }
 
 .small {
@@ -695,7 +655,7 @@ strong {
 
 /* et cetera */
 
-#banner .orange.text-block,
+#/banner .orange.text-block,
 .white-bg.text-block {
 	padding-top: 20px;
 }
@@ -708,6 +668,8 @@ strong {
 .cta:hover {
 	cursor: pointer;
 	-webkit-transition: background-color 1s;
+    -moz-transition: background-color 1s;
+    -o-transition: background-color 1s;
     transition: background-color 1s;
 }
 
@@ -760,12 +722,12 @@ footer .social {
     width: 190px;
 }
 
-.social a {
+footer .social a {
     display: block;
     float: left;
 }
 
-.social a {
+footer .social a {
 	text-indent: -9999px;
 	width: 40px;
 	height: 40px;
@@ -773,45 +735,37 @@ footer .social {
 	background: transparent url(/wp-content/themes/baker/images/social-icons.png) left top no-repeat;
 }
 
-.social a.twitter {
+footer .social a.twitter {
 	background-position: -49px 0;
 }
 
-.social a.google-plus {
+footer .social a.google-plus {
 	background-position: -97px 0;
 }
 
-.social a.pinterest {
+footer .social a.pinterest {
 	background-position: -146px 0;
 	margin-right: 0;
 }
 
-.social a.yelp {
+footer .social a.yelp {
 	background-position: 0px -50px;
 }
 
-.social a.youtube {
+footer .social a.youtube {
 	background-position: -49px -50px;
 }
 
-.social a.linkedin {
+footer .social a.linkedin {
 	background-position: -97px -50px;
 }
 
-.social a.rss {
+footer .social a.rss {
 	background-position: -144px -50px;
 	margin-right: 0;
 }
 
-.post .social a.pinterest {
-	margin-right: 10px;
-}
-
-.social a.tumblr {
-	background: transparent url(/wp-content/themes/baker/images/tumblr.png) center center no-repeat;
-}
-
-.logo.baker {
+footer .logo.baker {
 	display: block;
 	margin: 30px 0 0 0;
 }
@@ -930,7 +884,6 @@ form ul li input {
 	line-height: 30px;
 }
 
-input,
 form ul li select,
 form ul li input,
 textarea {
@@ -1118,405 +1071,16 @@ form .halves li input {
 	max-height: 100% !important;	
 }
 .alignleft {
-	float:left;
-	padding:0 1% 1% 0;
+float:left;
+padding:0 1% 1% 0;
 }
 .alignright{
-	float:right;
-	padding:0 0 1% 1%;
+float:right;
+padding:0 0 1% 1%;
 }
 .aligncenter{
-	float: none;
-	margin: 0 auto 20px auto;
+
 }
 .tertiary-columns ul{
-	margin-left:2%;
-}
-
-
-/* blog styles */
-
-
-/*blog landing */
-
-.blog #content {
-	overflow: hidden;
-}
-
-.featured {
-	background: transparent url(../images/hero-bg.jpg) center center no-repeat;
-	background-size: cover;
-	padding-bottom: 40px;
-}
-
-.featured .post {
-	border-radius: 20px;
-	overflow: hidden;
-}
-
-.featured .post .text-block.white-bg,
-.hero.post .text-block.white-bg {
-	padding: 30px 30px 20px 30px;
-}
-
-.blog.landing .hero.post .post-meta {
-	padding-bottom: 12px;
-}
-
-.post .post-meta {
-	padding-bottom: 6px;
-}
-
-.post img {
-	display: block;
-	width: 100%;
-	max-width: 100%;
-}
-
-#main .post-content .alignleft,
-#main .post-content img.alignleft {
-	width: auto;
-	float: left;
-	margin: 0 20px 20px 0;
-}
-
-#main .post-content .alignright,
-#main .post-content img.alignright {
-	width: auto;
-	float: right;
-	margin: 0 0 20px 20px;
-}
-
-.single.blog #main .post-content div.alignright img,
-.single.blog #main .post-content div.alignleft img {
-	margin-bottom: 0;
-}
-
-#main .post-content div.alignright .wp-caption-text,
-#main .post-content div.alignleft .wp-caption-text {
-	width: 100%;
-	padding: 10px 20px;
-	margin: 0;
-	text-transform: uppercase;
-	letter-spacing: 0.1em;
-	font-size: 14px;
-	line-height: 15px;
-	background: #f0f0f0;
-}
-
-.side.post h2 {
-	padding-top: 0px;
-}
-
-.blog.landing .post h2 {
-	padding: 0px 0 6px 0;
-}
-
-#sidebar h2 {
-	padding: 0 0 9px 0;
-	margin: 0 0 10px 0;
-	border-bottom: 1px solid #ddd;				
-}
-
-.search {
-	position: relative;
-	margin-bottom: 30px;
-}
-
-.search input[type="text"] {
-	padding-right: 100px;
-	margin: 0;
-}
-
-#content form.search input[type="submit"] {
-	position: absolute;
-	right: 0;
-	top: 0;
-	font-size: 14px;
-	width: 60px;
-	padding: 6px 20px 6px 15px !important;
-	border-top-left-radius: 0px;
-	border-bottom-left-radius: 0px;
-	font-weight: normal;
-	background-image: none;
-}
-
-#sidebar {
-    padding: 40px 40px 3800px;
-    background: #f9f9f9;
-    margin-bottom: -3760px;
-}
-
-#sidebar ul {
-	list-style: none;
-}
-
-#sidebar h2,
-#sidebar ul,
-#sidebar ul li {
-	display: block;
-	clear: both;
-	float: none;
-}
-
-#sidebar .popular.widget ul {
-	clear: none;
-}
-
-#sidebar .widget {
-	margin-bottom: 30px;
-}
-
-.twitter.widget ul li {
-	margin-bottom: 15px;
-}
-
-#sidebar .button.cta {
-	padding-top: 10px;
-	padding-bottom: 10px;			
-}
-
-
-.blog .featured .text-block.orange {
-	padding: 10px 30px;
-}
-
-.twitter-timestamp,
-#sidebar .time-ago,
-.blog #sidebar .author-name {
-	font-size: 12px;
-	line-height: 18px;
-	display: block;
-	border-bottom: 1px solid #e7e7e7;
-	padding-bottom: 9px;
-	margin-bottom: 10px;
-}
-
-#sidebar li:last-child .time-ago,
-.blog #sidebar li:last-child .author-name {
-	border-bottom: 0;
-	margin-bottom: 0;
-	padding-bottom: 0;
-}
-
-.blog .post .post-date {
-	font-family: 'GillSansMTStd-Bold';	
-	text-transform: uppercase;
-}
-
-.blog #sidebar .post-author,
-.blog .post .post-author {
-	font-family: 'GillSansMTStd-MediumItalic';
-}
-
-
-
-/* blog */
-
-.search input,
-.search .button {
-	padding: 5px 20px;
-	font-size: 16px;
-	line-height: 20px;
-}
-
-#main {
-	z-index: 3;
-}
-
-#sidebar {
-	z-index: 1;
-}
-
-.twitter-timestamp,
-#sidebar .time-ago,
-.blog #sidebar .author-name{
-	text-transform: uppercase;
-	font-family: 'GillSansMTStd-Medium';
-}
-
-.single .featured .post-author {
-	font-size: 30px;
-	line-height: 30px;
-}
-
-.single .featured .post-date {
-	margin-bottom: 15px;
-}
-
-#sidebar li:last-child .twitter-timestamp,
-#sidebar li:last-child .time-ago,
-.blog #sidebar li:last-child .author-name {
-	border-bottom: 0;
-	margin-bottom: 0;
-	padding-bottom: 0;
-}
-
-.single #main p {
-	margin-bottom: 25px;
-}
-
-.single.blog #main .post-content img {
-    margin-bottom: 20px;
-	height: auto !important;
-}
-
-p:empty {
-	display: none;
-}
-
-
-.blog .post img.avatar {
-	width: 5em;
-	height: 5em;
-	border-radius: 10em;
-	box-shadow: 0 0 0.625em #eee;
-	border: 2px solid #ddd;
-	margin-right: 3.8%;
-	float: left;
-}
-
-.blog .post .author-bio p {
-	font-size: 16px;
-}
-
-p.share-icons {
-	padding: 0;
-}
-
-
-.related-posts > .col {
-	background: #f9f9f9;
-	position: relative;
-	border-bottom-left-radius: 20px;
-	border-bottom-right-radius: 20px;
-}
-
-.related-posts h4 {
-	font-family: 'GillSansMTStd-Medium';
-	font-weight: normal;
-	padding: 20px;	
-}
-
-#sidebar h2,
-.blog #content .expandable.comment-header {
-	float: left;
-	width: 100%;
-	clear: both;
-}
-
-.blog #content .expandable.comment-header .cta {
-	text-indent: -5000px;
-	width: 2.5em;
-	height: 2.5em;	
-	padding: 0;
-	background: #f27430 url(/wp-content/themes/baker/images/button-right.png) center center no-repeat;
-	background-size: 0.9375em;
-}
-
-.blog #content .expandable.comment-header.opened {
-	padding-bottom: 0;
-}
-
-.blog #content .expandable.comment-header.opened .cta {
-	background: #f27430 url(/wp-content/themes/baker/images/button-double-arrow-down.png) center center no-repeat;
-	background-size: auto 0.9375em;
-}
-
-.comment-header {
-	cursor: pointer;
-}
-
-#sidebar h2 span,
-.blog #content .expandable.comment-header span {
-	float: left;
-	margin-right: 10px;
-	line-height: 1.25em;
-}
-
-.post-author .categories {
-	display: block;
-}
-
-
-#main .author-bio p,
-#main .share .social a {
-	margin-bottom: 0;
-}
-
-#sidebar h2 .cta.button {
-	background: #aaa url(/wp-content/themes/baker/images/button-right.png) center center no-repeat;
-	padding: 12px;
-	background-size: 0.75em;
-}
-
-.blog #main .post-content p {
-	padding: 0;
-}
-
-.blog #main .post-content h1 {
-	font-size: 40px;
-	line-height: 45px;
-	margin: 0;
-	padding: 12px 0 6px 0;
-}
-
-.blog #main .post-content h2 {
-	font-size: 30px;
-	line-height: 35px;
-	padding: 12px 0 6px 0;
-}
-
-.blog #main .post-content h3 {
-	font-size: 26px;
-	line-height: 30px;
-}
-
-.blog #content .older.cta.button {
-	background: #f27430 url(/wp-content/themes/baker/images/button-double-arrow.png) right center no-repeat;
-	background-size: auto 13px;
-	padding: 15px 50px 15px 25px;
-}
-
-.blog #content .newer.cta.button {
-	background: #f27430 url(/wp-content/themes/baker/images/button-double-arrow-left.png) left center no-repeat;
-	background-size: auto 13px;
-	padding: 15px 25px 15px 50px;
-}
-
-.rstw_comma {
-	display: none;
-}
-
-.twitter-timestamp {
-	display: block;
-}
-
-.form-allowed-tags {
-	padding-bottom: 0;
-}
-
-#comments #submit {
-	width: auto;
-	padding: 15px 50px 15px 25px !important;
-}
-
-
-#site-footer-top .cards .one {
-	background: transparent url(/wp-content/themes/baker/images/footer-client-reviews.jpg) left top no-repeat;
-}
-
-#site-footer-top .cards .two {
-	background: transparent url(/wp-content/themes/baker/images/footer-baker-way.jpg) left top no-repeat;
-}
-
-#site-footer-top .cards .three {
-	background: transparent url(/wp-content/themes/baker/images/footer-get-a-quote.jpg) left top no-repeat;
-}
-
-
-#site-footer-top .cards .one,
-#site-footer-top .cards .two,
-#site-footer-top .cards .three {
-	background-size: auto 167px;
+margin-left:2%;
 }
